@@ -8,6 +8,8 @@ import OccupationalSafety from './pages/OccupationalSafety'
 import FireSafety from './pages/FireSafety'
 import EnvironmentalProtection from './pages/EnvironmentalProtection'
 import NotFound from './pages/NotFound'
+import References from './pages/References'
+import Footer from './components/Footer'
 
 function App() {
     return(
@@ -19,8 +21,10 @@ function App() {
                 <Route path='/munkavedelem' element={<OccupationalSafety/>}/>
                 <Route path='/tuzvedelem' element={<FireSafety/>}/>
                 <Route path='/kornyezetvedelem' element={<EnvironmentalProtection/>}/>
+                <Route path='/referenciak' element={<References/>}/>
                 <Route path="*" element={<NotFound />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     )
 }
