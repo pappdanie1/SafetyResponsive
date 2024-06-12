@@ -1,0 +1,34 @@
+.reference-section {
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.reference-section h2 {
+    margin-bottom: 2rem;
+    font-size: 32px;
+}
+
+.logo-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.ref-img {
+    width: 10%;
+    height: auto;
+    max-height: 75px;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 768px){
+    .logo-container {
+        justify-content: flex-start;
+    }
+
+    .ref-img {
+        width: calc(33.33% - 1rem);
+    }
+}
