@@ -14,12 +14,14 @@ const Header = () => {
     return (
         <header>
             <Link to='/'>
-                <img className="header-logo" src="/src/assets/icon.svg" alt="" />
+                <img className="header-logo" src="/src/assets/logo.png" alt="" />
             </Link>
             <nav ref={navRef}>
+                <a href="/">Kezdőlap</a>
                 <a href="/munkavedelem">Munkavédelem</a>
                 <a href="/tuzvedelem">Tűzvédelem</a>
                 <a href="/kornyezetvedelem">Környezetvédelem</a>
+                <a href="/referenciak">Referenciák</a>
                 <a href="/kapcsolat">Kapcsolat</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar} >
                     <FaTimes />
