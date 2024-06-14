@@ -6,7 +6,12 @@ const About = () => {
         <div className="about-section">
             <h2 className="about-section__title">Rólunk</h2>
             <p className="about-section__text">
-                A [Cégnév] egy dinamikusan fejlődő vállalat, amely [céged tevékenysége] területén nyújt szolgáltatásokat. Célunk, hogy [céged célja] a [célközönség] számára. Csapatunk [csapatod leírása], akik elkötelezettek amellett, hogy [értékeid].
+                Az <strong>EHS szolgáltatás</strong>t nyújtó cégünk egy dinamikusan fejlődő vállalkozás, amely <strong>Munkavédelem,
+                Tűzvédelem és a Környezetvédelem</strong> területén nyújt szaktanácsadást, valamint szolgáltatásokat.
+                Célunk, hogy<strong>Biztonságos és Környezettudatos</strong> tevékenységgel támogassuk a <strong>Cégek hosszútávú
+                Sikerét</strong>.
+                Csapatunk felsőfokú szakmai felkészültséggel rendelkezik, akik elkötelezettek amellett, hogy közös
+                együttműködéssel hozzájáruljunk a folyamatos fejlődéshez.
             </p>
                 <div className="about-section__services">
                     <div className="about-section__service">
