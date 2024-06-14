@@ -1,4 +1,4 @@
-.contact-section {
+.main-contact-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,89 +6,106 @@
     background-color: #ffffff;
 }
 
-.contact-section h2 {
+.center-section-main {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.main-contact-section h2 {
     margin-bottom: 1rem;
     font-size: 32px;
     text-align: center;
 }
 
-.contact-info {
+.main-contact-info {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap; 
     gap: 1rem;
     width: 100%;
-    align-items: center; 
+    justify-content: center;
+    text-align: center; 
 }
 
-.contact-info p {
+.main-icon{
+    color: #007bff;
+    font-size: 35px;
+}
+
+.main-contact-info p {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0.25rem;
 }
 
-.contact-info a {
+.main-contact-info a {
     color: #007bff;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     font-size: 20px;
 }
 
-.contact-info a:hover {
+.main-contact-info a:hover {
     color: #0056b3;
 }
 
-.phone,
-.email,
-.name,
-.address {
+.main-phone,
+.main-email,
+.main-name,
+.main-address {
     display: flex;
     align-items: center;
     gap: 5px; 
 }
 
-.name,
-.address {
-    flex: none; 
-    text-align: center;
-    
-}
-
 @media (min-width: 768px) {
-    .contact-info {
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 1rem; 
+    .main-contact-info {
+        justify-content: flex-start; 
     }
-
-    .phone,
-    .email,
-    .name,
-    .address {
-        width: auto;
-    }
-
-    .name,
-    .address {
-        text-align: left;
+    .center-section-main {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .contact-info a {
-        color: #007bff;
-        text-decoration: none;
-        transition: color 0.2s ease-in-out;
-        font-size: 15px;
+    .main-contact-info a {
+        font-size: 15px; 
     }
 
-    .contact-info p {
+    .main-contact-info p {
         font-size: 15px;
-        font-weight: bold;
-        margin-bottom: 0.25rem;
+    }
+    .center-section-main {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-contact-info a {
+        font-size: 18px; 
     }
 
-    .name,
-    .address {
-        text-align: center;
+    .main-contact-info p {
+        font-size: 16px;
+    }
+    .center-section-main {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-contact-info {
+        justify-content: flex-start; 
+    }
+    .center-section-main {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
     }
 }
