@@ -6,12 +6,17 @@ import '../css/Footer.css'
 const Footer = () => {
     return (
         <footer className="footer">
+            <div className="footer-text">
+                Biztonság a Cége Sikere Érdekében!
+            </div>
             <div className="contact">
                 <h3>Kapcsolat</h3>
-                <p>Email:</p>
-                <a href="mailto:pappzsolt6903@gmail.com">pappzsolt6903@gmail.com</a>
-                <p>Telefon:</p>
-                <a href="tel:+36308647319">+36 30 8647319</a>
+                <div className="contact-info">
+                    <p><MdEmail /> Email:</p>
+                    <a href="mailto:pappzsolt6903@gmail.com">pappzsolt6903@gmail.com</a>
+                    <p><IoPhonePortraitOutline /> Telefon:</p>
+                    <a href="tel:+36308647319">+36 30 8647319</a>
+                </div>
             </div>
             <div className="links">
                 <h3>Linkek</h3>
@@ -36,6 +41,7 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
+
         </footer>
     );
 };
