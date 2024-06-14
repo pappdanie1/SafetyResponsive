@@ -28,7 +28,8 @@ const CardContainer = () => {
                 <FaHelmetSafety className="icon" />
                 <h2>Munkavédelem</h2>
                 <ul>
-                    <li><IoCheckmarkCircle className="check-icon" /> Munkavédelmi ellenőrzések</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Munkavédelmi Szabályzat</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Munkavédelmi ellenőrzések</li>
                     <li><IoCheckmarkCircle className="check-icon" />Időszakos felülvizsgálatok</li>
                     <li><IoCheckmarkCircle className="check-icon" />Balesetkivizsgálás</li>
                     <li><IoCheckmarkCircle className="check-icon" />Üzembehelyezések</li>

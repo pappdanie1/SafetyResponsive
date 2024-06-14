@@ -9,6 +9,12 @@ const Contact = () => {
         <div className="contact-section" >
             <h2>Kapcsolat</h2>
             <div className="contact-info" >
+                <div className="name">
+                    <p>Papp Zsolt</p>
+                </div>
+                <div className="adddress" >
+                    <p>4150, Püspökladány, Zrínyi u. 50.</p>
+                </div>
                 <div className="phone" >
                     <IoPhonePortraitOutline className="icon"/>
                     <p>Telefon:</p>
