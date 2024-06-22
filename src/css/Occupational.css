@@ -4,6 +4,15 @@
     padding: 20px;
 }
 
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .section {
     margin-bottom: 40px;
 }
@@ -39,6 +48,7 @@ h2 {
 
 .custom-list li {
     margin-bottom: 8px;
+    font-size: 1.2rem;
 }
 
 @media (max-width: 768px) {

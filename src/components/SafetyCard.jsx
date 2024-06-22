@@ -14,10 +14,7 @@ const SafetyCard = (props) => {
                     {props.text}
                 </p>
                 <a href="#" class="button" className="safety-a" >
-                    Find out more
-                    <span class="material-symbols-outlined">
-                        arrow_right_alt
-                    </span>
+                    Tudjon meg többet
                 </a>
             </div>
         </div>
