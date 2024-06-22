@@ -9,6 +9,7 @@ const OccupationalSafety = () => {
         <div className="container">
             <SafetyCard head={"asd"} text={"something"} img={"/src/assets/logo.png"}/>
             <SafetyCard head={"lofasz"} text={"asd"} img={"/src/assets/img1.jpg"}/>
+            <SafetyCard head={"asd"} text={"something"} img={"/src/assets/logo.png"}/>
             <section className="section">
                 <h1>Munkavédelem</h1>
                 <div className="subsection">
