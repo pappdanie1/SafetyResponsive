@@ -1,11 +1,14 @@
 import React from "react";
 import "../css/Occupational.css";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import SafetyCard from "../components/SafetyCard";
 
 const OccupationalSafety = () => {
     
     return (
         <div className="container">
+            <SafetyCard head={"asd"} text={"something"} img={"/src/assets/logo.png"}/>
+            <SafetyCard head={"lofasz"} text={"asd"} img={"/src/assets/img1.jpg"}/>
             <section className="section">
                 <h1>Munkavédelem</h1>
                 <div className="subsection">

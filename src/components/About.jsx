@@ -8,7 +8,7 @@ const About = () => {
             <p className="about-section__text">
                 Az <strong>EHS szolgáltatás</strong>t nyújtó cégünk egy dinamikusan fejlődő vállalkozás, amely <strong>Munkavédelem,
                 Tűzvédelem és a Környezetvédelem</strong> területén nyújt szaktanácsadást, valamint szolgáltatásokat.
-                Célunk, hogy<strong>Biztonságos és Környezettudatos</strong> tevékenységgel támogassuk a <strong>Cégek hosszútávú
+                Célunk, hogy <strong>Biztonságos és Környezettudatos</strong> tevékenységgel támogassuk a <strong>Cégek hosszútávú
                 Sikerét</strong>.
                 Csapatunk felsőfokú szakmai felkészültséggel rendelkezik, akik elkötelezettek amellett, hogy közös
                 együttműködéssel hozzájáruljunk a folyamatos fejlődéshez.
@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                     <div className="about-section__service">
                         <h3>Tűzvédelem</h3>
-                        <p>Tűzvédelmi tanácsadást, kockázatértékelést, tűzoltórendszerek telepítését és karbantartását végezzük.</p>
+                        <p>Tűzvédelmi tanácsadást végzünk és a tűzvédelmi feladatok ellátásban nyújtunk támogatást.</p>
                     </div>
                     <div className="about-section__service">
                         <h3>Környezetvédelem</h3>

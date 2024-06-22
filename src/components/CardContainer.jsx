@@ -37,7 +37,7 @@ const CardContainer = () => {
                     <li><IoCheckmarkCircle className="check-icon" />Munkavédelmi kockázatértékelés</li>
                     <li><IoCheckmarkCircle className="check-icon" />Biztonságtechnikai mérések</li>
                     <li><IoCheckmarkCircle className="check-icon" />Veszélyes munkák</li>
-                    <li><IoCheckmarkCircle className="check-icon" />ISO45001 szabvány szerint</li>
+                    <li><IoCheckmarkCircle className="check-icon" />ISO45001 MEBIR</li>
                     <li><IoCheckmarkCircle className="check-icon" />Emelőgépek</li>
                     <li><IoCheckmarkCircle className="check-icon" />Munkavédelmi tervek</li>
                     <li><IoCheckmarkCircle className="check-icon" />Építési munkahelyek munkavédelmi feladatai</li>
