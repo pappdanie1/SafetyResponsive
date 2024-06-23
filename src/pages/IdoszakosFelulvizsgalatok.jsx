@@ -9,7 +9,7 @@ const IdoszakosFelulvizsgalatok = () => {
                 <div className="subsection">
                     <h2>Időszakos felülvizsgálatok</h2>
                     <p className="subsection-content">
-                        Jogszabályokban és szabványokban meghatározott időnközönként időszakos felülvizsgálatok elvégzése szükséges, amely biztosítja a gépek, berendezések, eszközök biztonságos állapotát és a jogszabályi megfelelőséget.
+                        A Jogszabályokban és szabványokban meghatározott időnközönként időszakos felülvizsgálatok elvégzése szükséges, amely biztosítja a gépek, berendezések, eszközök biztonságos állapotát és a jogszabályi megfelelőséget. 
                     </p>
                     <p className="subsection-content">
                         Időszakos munkavédelmi felülvizsgálatok, amelyeket körültekintően nyilvántartunk és elvégzünk:

@@ -9,7 +9,7 @@ const Balesetkivizsgalas = () => {
             <div className="subsection">
                 <h2>Balesetkivizsgálás</h2>
                 <p className="subsection-content">
-                    Fontos mindannyiónk számára, hogy minden baleset kivizsgálásra kerüljön, még azon események is, amelyek nem jártak sérüléssel. Részletes kivizsgálással meghatározhatóak a gyökérokok, amelyek elhárításával elkerülhetőek az esetlegesen súlyos balesetek is.
+                    Fontos mindannyiónk számára, hogy minden baleset kivizsgálásra kerüljön, még azon események is, amelyek nem jártak sérüléssel. Részletes kivizsgálással meghatározhatóak a gyökérokok, amelyek elhárításával elkerülhetőek az esetlegesen súlyos balesetek is. 
                     Természetesen a munkaidő kieséssel járó balesetekkel, kapcsolatos hatósági ügyintézést is végezzük kompletten.
                 </p>
                 <p className="subsection-content">
