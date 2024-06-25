@@ -1,78 +1,42 @@
 import React from "react";
-import { IoCheckmarkCircle } from "react-icons/io5";
+import { Link } from "react-router-dom";
+import SafetyCard from "../components/SafetyCard";
 
 const EnvironmentalProtection = () => {
 
     return (
-        <div className="container">
-            <section className="section">
-                <h1>Környezetvédelem</h1>
-                <div className="subsection">
-                    <h2>1. ISO14001 Környezetközpontú Irányítási Rendszerek</h2>
-                    <ul className="custom-list">
-                        <li><IoCheckmarkCircle className="check-icon" />Rendszer kezelése, dokumentálása</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Auditok bonyolítása</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Vezetőségi átvizsgálás</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Jogszabály regiszter</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Érdekelt felek elvárásai</li>
-                    </ul>
-                </div>
-                <div className="subsection">
-                    <h2>2. Környezetvédelmi ellenőrzések</h2>
-                    <ul className="custom-list">
-                        <li><IoCheckmarkCircle className="check-icon" />Környezetvédelmi szemlék megtartása</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Hiányosságok intézkedéseinek nyomon követése</li>
-                    </ul>
-                </div>
-                <div className="subsection">
-                    <h2>3. Talaj védelem</h2>
-                    <ul className="custom-list">
-                        <li><IoCheckmarkCircle className="check-icon" />Talajvízfigyelő monitoring kút ellenőrzése</li>
-                    </ul>
-                </div>
-                <div className="subsection">
-                    <h2>4. Veszélyes anyagok nyilvántartása</h2>
-                    <ul className="custom-list">
-                        <li><IoCheckmarkCircle className="check-icon" />Veszélyes anyag regiszter készítése</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Biztonsági adatlapok kezelése</li>
-                    </ul>
-                </div>
-                <div className="subsection">
-                    <h2>5. Levegőtisztaság védelem</h2>
-                    <ul className="custom-list">
-                        <li><IoCheckmarkCircle className="check-icon" />Légszennyező pontforrás kibocsátások mérése</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Éves bevallás elkészítése és beküldése a hatóság felé</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Pontforrások engedélyeztetése</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Levegőterhelési díj analitika</li>
-                    </ul>
-                </div>
-                <div className="subsection">
-                    <h2>6. Környezetvédelmi oktatás</h2>
-                    <ul className="custom-list">
-                        <li><IoCheckmarkCircle className="check-icon" />Előzetes környezetvédelmi oktatás</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Időszakos környezetvédelmi oktatás</li>
-                    </ul>
-                </div>
-                <div className="subsection">
-                    <h2>7. Hulladékkezelés</h2>
-                    <ul className="custom-list">
-                        <li><IoCheckmarkCircle className="check-icon" />Az éves hulladékos adatszolgáltatás elkészítése, hatósághoz történő benyújtása</li>
-                        <li><IoCheckmarkCircle className="check-icon" />Hulladék nyilvántartás vezetése</li>
-                    </ul>
-                </div>
-                <div className="subsection">
-                    <h2>8. Környezeti zaj</h2>
-                    <ul className="custom-list">
-                        <li><IoCheckmarkCircle className="check-icon" />Környezeti zaj mérése</li>
-                    </ul>
-                </div>
-                <div className="subsection">
-                    <h2>9. Környezetvédelmi termékdíj bevallás</h2>
-                </div>
-                <div className="subsection">
-                    <h2>10.	EPR gyártói termékfelelőségi díj bevallás</h2>
-                </div>
-            </section>
+        
+        <div className="cards-cc">
+            <h1 className="cards-title">Környezetvédelem</h1>
+            <div className="cards-container">
+                <Link to="/ISO14001">
+                    <SafetyCard head={"ISO14001 Környezetközpontú Irányítási Rendszerek"} img={"/src/assets/14001.jpg"} />
+                </Link>
+                <Link to="/kornyezetvedelmi-ellenorzesek">
+                    <SafetyCard head={"Környezetvédelmi ellenőrzések"} img={"/src/assets/k-ell.jpg"} />
+                </Link>
+                <Link to="/talaj-vedelem">
+                    <SafetyCard head={"Talaj védelem"} img={"/src/assets/talaj-v.jpg"} />
+                </Link>
+                <Link to="/veszelyes-anyagok-nyilvantartasa">
+                    <SafetyCard head={"Veszélyes anyagok nyilvántartása"} img={"/src/assets/veszelyes-a.jpg"} />
+                </Link>
+                <Link to="/levegotisztasag-vedelem">
+                    <SafetyCard head={"Levegőtisztaság védelem"} img={"/src/assets/levego.jpg"} />
+                </Link>
+                <Link to="/kornyezetvedelmi-oktatas">
+                    <SafetyCard head={"Környezetvédelmi oktatás"} img={"/src/assets/k-okt.jpg"} />
+                </Link>
+                <Link to="/hulladekkezeles">
+                    <SafetyCard head={"Hulladékkezelés"} img={"/src/assets/hulladek.jpg"} />
+                </Link>
+                <Link to="/kornyezetvedelmi-termekdij-bevallas">
+                    <SafetyCard head={"Környezetvédelmi termékdíj bevallás"} img={"/src/assets/k-termek.jpg"} />
+                </Link>
+                <Link to="/epr-gyartoi-termekfelelossegi-dij-bevallas">
+                    <SafetyCard head={"EPR gyártói termékfelelőségi díj bevallás"} img={"/src/assets/epr.jpg"} />
+                </Link>
+            </div>
         </div>
     );
 }

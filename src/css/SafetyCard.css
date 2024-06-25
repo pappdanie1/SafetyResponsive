@@ -1,4 +1,3 @@
-
 .safety-card {
   width: 24rem;
   height: 28rem;
@@ -7,63 +6,82 @@
   cursor: pointer;
   position: relative;
   color: rgb(7, 7, 7);
-  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
- 
-  .card-img {
-    position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.9;
-    transition: opacity .2s ease-out;
-  }
-
-  .safety-h2 {
-    position: absolute;
-    inset: auto auto 30px 30px;
-    margin: 0;
-    transition: inset .3s .3s ease-out;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: normal;
-    text-transform: uppercase;
-  }
-  
-  .safety-p, .safety-a {
-    position: absolute;
-    opacity: 0;
-    max-width: 80%;
-    transition: opacity .3s ease-out;
-  }
-  
-  .safety-p {
-    inset: auto auto 80px 30px;
-  }
-  
-  .safety-a {
-    inset: auto auto 40px 30px;
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  &:hover .safety-h2 {
-    inset: auto auto 220px 30px;
-    transition: inset .3s ease-out;
-  }
-  
-  &:hover p, &:hover .safety-a {
-    opacity: 1;
-    transition: opacity .5s .1s ease-in;
-  }
-  
-  &:hover .card-img {
-    transition: opacity .3s ease-in;
-    opacity: 1;
-  }
-
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.4);
 }
 
-.material-symbols-outlined {
-  vertical-align: middle;
+.safety-card::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%; 
+  background: linear-gradient(to top, white, transparent);
+  z-index: 1; 
+}
+
+.card-img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: opacity .2s ease-out;
+}
+
+.safety-card-content {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+.safety-p {
+  inset: auto auto 80px 30px;
+}
+
+.safety-p, .safety-a {
+  position: absolute;
+  opacity: 0;
+  max-width: 80%;
+  transition: opacity .3s ease-out;
+  z-index: 3; 
+}
+
+.safety-h2 {
+  position: absolute;
+  inset: auto auto 2px 2px;
+  margin: 0;
+  transition: inset .3s .3s ease-out;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:600;
+  text-transform: uppercase;
+  z-index: 3;
+  text-shadow:2cap;
+}
+
+.safety-a {
+  position: absolute;
+  opacity: 0;
+  max-width: 80%;
+  transition: opacity .3s ease-out;
+  inset: auto auto 40px 30px;
+  color: inherit;
+  text-decoration:double;
+}
+
+
+.safety-card:hover .safety-h2 {
+  inset: auto auto 100px 0px;
+  transition: inset .3s ease-out;
+}
+
+.safety-card:hover, .safety-card:hover .safety-a {
+  opacity: 1;
+  transition: opacity .5s .1s ease-in;
+}
+
+.safety-card:hover .card-img {
+  transition: opacity .3s ease-in;
+  opacity: 1; 
 }

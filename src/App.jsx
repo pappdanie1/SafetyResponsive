@@ -29,6 +29,15 @@ import IdoszakosFelulvizsgalatokT from './pages/IdoszakosFelulvizsgalatokT'
 import TuzvedelmiOktatas from './pages/TuzvedelmiOktatas'
 import Katasztrofavedelem from './pages/Katasztrofavedelem'
 import TuzveszelyesTevekenyseg from './pages/TuzveszelyesTevekenyseg'
+import ISO14001 from './pages/ISO14001'
+import KornyezetvedelmiEll from './pages/KornyezetvedelmiEll'
+import TalajVedelem from './pages/TalajVedelem'
+import VeszelyesAnyagok from './pages/VeszelyesAnyagok'
+import Levegotisztasag from './pages/Levegotisztasag'
+import KornyezetvedelmiOktatas from './pages/KornyezetvedelmiOktatas'
+import Hulladekkezeles from './pages/Hulladekkezeles'
+import Bevallas from './pages/Bevallas'
+import EPRBevallas from './pages/EPRBevallas'
 
 function App() {
     return(
@@ -61,6 +70,15 @@ function App() {
                 <Route path='/tuzvedelmi-oktatas' element={<TuzvedelmiOktatas/>} />
                 <Route path='/katasztrofavedelem' element={<Katasztrofavedelem/>} />
                 <Route path='/tuzveszelyes-tevelenyseg' element={<TuzveszelyesTevekenyseg/>} />
+                <Route path='/ISO14001' element={<ISO14001/>} />
+                <Route path='/kornyezetvedelmi-ellenorzesek' element={<KornyezetvedelmiEll/>} />
+                <Route path='/talaj-vedelem' element={<TalajVedelem/>} />
+                <Route path='/veszelyes-anyagok-nyilvantartasa' element={<VeszelyesAnyagok/>} />
+                <Route path='/levegotisztasag-vedelem' element={<Levegotisztasag/>} />
+                <Route path='/kornyezetvedelmi-oktatas' element={<KornyezetvedelmiOktatas/>} />
+                <Route path='/hulladekkezeles' element={<Hulladekkezeles/>} />
+                <Route path='/kornyezetvedelmi-termekdij-bevallas' element={<Bevallas/>} />
+                <Route path='/epr-gyartoi-termekfelelossegi-dij-bevallas' element={<EPRBevallas/>} />
             </Routes>
             <Footer />
         </BrowserRouter>

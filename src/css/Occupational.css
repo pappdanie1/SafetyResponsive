@@ -1,5 +1,5 @@
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -18,7 +18,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.li-2{
+.li-2 {
     margin-left: 30px;
 }
 
@@ -43,16 +43,45 @@ h2 {
     font-size: 1.2rem;
 }
 
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.image {
+    max-width: 500px;
+    height: auto;
+    border-radius: 4%;
+    margin-top: 10px;
+}
+
+.text-container {
+    flex: 1;
+}
+
 @media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
+    .content-wrapper {
+        flex-direction: column;
     }
 
-    h2 {
-        font-size: 1.8rem;
+    .image-container {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
+    
+}
 
-    .subsection-content {
-        font-size: 1rem;
+@media (max-width: 425px) {
+    .image {
+        max-width: 300px;
+        height: auto;
+        border-radius: 4%;
+        margin-top: 10px;
     }
+    
 }
