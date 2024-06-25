@@ -1,0 +1,111 @@
+.main-contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.center-section-main {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.main-contact-section h2 {
+    margin-bottom: 1rem;
+    font-size: 32px;
+    text-align: center;
+}
+
+.main-contact-info {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center; 
+}
+
+.main-icon{
+    color: #007bff;
+    font-size: 35px;
+}
+
+.main-contact-info p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.main-contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    font-size: 20px;
+}
+
+.main-contact-info a:hover {
+    color: #0056b3;
+}
+
+.main-phone,
+.main-email,
+.main-name,
+.main-address {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+@media (min-width: 768px) {
+    .main-contact-info {
+        justify-content: flex-start; 
+    }
+    .center-section-main {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-contact-info a {
+        font-size: 15px; 
+    }
+
+    .main-contact-info p {
+        font-size: 15px;
+    }
+    .center-section-main {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-contact-info a {
+        font-size: 18px; 
+    }
+
+    .main-contact-info p {
+        font-size: 16px;
+    }
+    .center-section-main {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-contact-info {
+        justify-content: flex-start; 
+    }
+    .center-section-main {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}

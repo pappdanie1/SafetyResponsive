@@ -1,0 +1,111 @@
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.footer-contact {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contact-info .footer-contact, .footer-contact-info .footer-contact {
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+.footer-links {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-contact,
+    .footer-links {
+        width: 50%;
+    }
+    .footer-icon{
+    color: #007bff;
+    font-size: 25px;
+    }
+}
+
+
+.footer-contact {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-links li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .footer-icon{
+        color: #007bff;
+        font-size: 25px;
+    }
+    .footer-contact-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; /* Ensure items stack vertically on mobile */
+    }
+    
+    .footer-contact-item {
+        width: 100%; /* Take up full width on mobile */
+        padding: 10px;
+    }
+}
+
+.footer-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', cursive;
+    font-size: 25px;
+    color: #000000;
+}
+
+.footer-icon {
+    color: #007bff;
+    font-size: 25px;
+    margin-right: 10px; /* Optional: Adjust horizontal spacing */
+    margin-bottom: -8px; /* Adjust vertical spacing */
+}
+
+.footer-contact-item{
+    padding: 10px;
+}
+
+.footer-h3{
+    margin-bottom: 10px;
+}
