@@ -28,7 +28,7 @@ const TuzvedelmiSzabalyzat = () => {
                             <li><IoCheckmarkCircle className="check-icon" /><strong>Tűzjelzés és riasztás:</strong> Azokat az eljárásokat, amelyek biztosítják a tűz gyors észlelését és a megfelelő személyek értesítését, beleértve a tűzjelző rendszerek használatát és a riasztási láncot.</li>
                             <li><IoCheckmarkCircle className="check-icon" /><strong>Menekülési útvonalak:</strong> Az épületben található menekülési útvonalak és kijáratok pontos leírása, valamint a menekülési útvonalak akadálymentességének biztosítása.</li>
                             <li><IoCheckmarkCircle className="check-icon" /><strong>Tűzoltó eszközök:</strong> A tűzoltó készülékek és berendezések elhelyezése, karbantartása és használatukra vonatkozó utasítások.</li>
-                            <li><IoCheckmarkCircle className="check-icon" /><strong>Képzés és oktatás:</strong> Az alkalmazottak rendszeres tűzvédelmi oktatása, beleértve a tűz esetén követendő eljárások, a tűzoltó eszközök használata és az evakuálási gyakorlatok.</li>
+                            <li><IoCheckmarkCircle className="check-icon" /><strong>Képzés és oktatás:</strong> Az alkalmazottak rendszeres tűzvédelmi oktatása, beleértve a tűz esetén követendő eljárásokat, a tűzoltó eszközök használatát és az evakuálási gyakorlatokat.</li>
                             <li><IoCheckmarkCircle className="check-icon" /><strong>Tűzriadó tervek:</strong> A tűz esetén követendő eljárások, beleértve az evakuálási terveket, az elsősegélynyújtást és a tűzoltó egységek értesítését.</li>
                         </ul>
                         <p className="subsection-content">

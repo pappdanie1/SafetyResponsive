@@ -12,10 +12,7 @@ const ContactUs = () => {
                 <div className="contact-us-subsection">
                     <div className="contact-us-info">
                         <div className="contact-us-item">
-                            <h2>Papp Zsolt</h2>
-                        </div>
-                        <div className="contact-us-item">
-                            <h2>4150, Püspökladány, Zrínyi u. 50.</h2>
+                            <h2>Amennyiben Munkavédelemmel, Tűzvédelemmel vagy Környezetvédelemmel kapcsolatos kérdésük, megoldandó faladatuk merülne fel állunk szíves rendelkezésükre a következő elérhetőségeinken vagy személyes megbeszélés alkalmával. Várjuk szíves érdeklődésüket.</h2>
                         </div>
                         <div className="contact-us-item">
                             <IoPhonePortraitOutline className="contact-us-icon" />

@@ -38,11 +38,13 @@ import KornyezetvedelmiOktatas from './pages/KornyezetvedelmiOktatas'
 import Hulladekkezeles from './pages/Hulladekkezeles'
 import Bevallas from './pages/Bevallas'
 import EPRBevallas from './pages/EPRBevallas'
+import ScrollToTop from  './components/ScrollToTop';
 
 function App() {
     return(
         <BrowserRouter>
             <Header/>
+            <ScrollToTop />
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/kapcsolat' element={<ContactUs/>}/>

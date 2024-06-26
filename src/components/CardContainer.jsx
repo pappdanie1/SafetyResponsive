@@ -38,7 +38,7 @@ const CardContainer = () => {
                     <li><IoCheckmarkCircle className="check-icon" />Biztonságtechnikai mérések</li>
                     <li><IoCheckmarkCircle className="check-icon" />Veszélyes munkák</li>
                     <li><IoCheckmarkCircle className="check-icon" />ISO45001 MEBIR</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Emelőgépek</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Emelőgép ügyintézés</li>
                     <li><IoCheckmarkCircle className="check-icon" />Munkavédelmi tervek</li>
                     <li><IoCheckmarkCircle className="check-icon" />Építési munkahelyek munkavédelmi feladatai</li>
                 </ul>
@@ -50,7 +50,6 @@ const CardContainer = () => {
                     <li><IoCheckmarkCircle className="check-icon" />Tűzvédelmi szabályzat</li>
                     <li><IoCheckmarkCircle className="check-icon" />Tűzvédelmi ellenőrzések</li>
                     <li><IoCheckmarkCircle className="check-icon" />Időszakos felülvizsgálatok</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Tűzvizsgálat</li>
                     <li><IoCheckmarkCircle className="check-icon" />Tűzvédelmi oktatás</li>
                     <li><IoCheckmarkCircle className="check-icon" />Katasztrófavédelem</li>
                     <li><IoCheckmarkCircle className="check-icon" />Tűzveszélyes tevékenység</li>
@@ -64,7 +63,7 @@ const CardContainer = () => {
                     <li><IoCheckmarkCircle className="check-icon" />Környezetvédelmi ellenőrzések</li>
                     <li><IoCheckmarkCircle className="check-icon" />Talaj védelem</li>
                     <li><IoCheckmarkCircle className="check-icon" />Veszélyes anyagok nyilvántartása</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Légszennyező pontforrások</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Levegőtisztaság védelem</li>
                     <li><IoCheckmarkCircle className="check-icon" />Környezetvédelmi oktatás</li>
                     <li><IoCheckmarkCircle className="check-icon" />Hulladékkezelés</li>
                     <li><IoCheckmarkCircle className="check-icon" />Környezeti zaj</li>
