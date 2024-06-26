@@ -29,10 +29,6 @@
     object-fit: cover; 
     display: block;
 }
-
-.ref-div{
-    margin-bottom: 440px;
-}
   
 @media only screen and (max-width: 768px) {
     .slider-container {
