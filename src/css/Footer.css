@@ -6,9 +6,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    left:0;
-    bottom:0;
-    right:0;
+    margin-top: auto;
 }
 
 .footer-contact {
@@ -77,11 +75,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column; /* Ensure items stack vertically on mobile */
+        flex-direction: column; 
     }
     
     .footer-contact-item {
-        width: 100%; /* Take up full width on mobile */
+        width: 100%; 
         padding: 10px;
     }
 }
@@ -98,8 +96,8 @@
 .footer-icon {
     color: #007bff;
     font-size: 25px;
-    margin-right: 10px; /* Optional: Adjust horizontal spacing */
-    margin-bottom: -8px; /* Adjust vertical spacing */
+    margin-right: 10px; 
+    margin-bottom: -8px;
 }
 
 .footer-contact-item{

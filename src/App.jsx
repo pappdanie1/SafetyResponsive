@@ -41,49 +41,51 @@ import EPRBevallas from './pages/EPRBevallas'
 import ScrollToTop from  './components/ScrollToTop';
 
 function App() {
-    return(
-        <BrowserRouter>
-            <Header/>
-            <ScrollToTop />
-            <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/kapcsolat' element={<ContactUs/>}/>
-                <Route path='/munkavedelem' element={<OccupationalSafety/>}/>
-                <Route path='/tuzvedelem' element={<FireSafety/>}/>
-                <Route path='/kornyezetvedelem' element={<EnvironmentalProtection/>}/>
-                <Route path='/referenciak' element={<ReferencesPage/>}/>
-                <Route path="*" element={<NotFound />} />
-                <Route path='/munkavedelmi-szabalyzat' element={<MunkavedelmiSzabalyzat/>} />
-                <Route path='/munkavedelmi-ellenorzesek' element={<MunkavedelmiEllenorzesek/>} />
-                <Route path='/idoszakos-felulvizsgalatok' element={<IdoszakosFelulvizsgalatok/>} />
-                <Route path='/balesetkivizsgalas' element={<Balesetkivizsgalas/>} />
-                <Route path='/uzembehelyezesek' element={<Uzembehelyezesek/>} />
-                <Route path='/munkavedelmi-oktatas' element={<MunkavedelmiOktatas/>} />
-                <Route path='/munkavedelmi-kockazatertekeles' element={<MunkavedelmiKockazatertekeles/>} />
-                <Route path='/biztonsagtechnikai-meresek' element={<BiztonsagtechnikaiMeresek/>} />
-                <Route path='/veszelyes-munkak' element={<VeszelyesMunkak/>} />
-                <Route path='/ISO-45001-MEBIR' element={<ISO45001MEBIR/>} />
-                <Route path='/emelogep-ugyintezes' element={<EmelogepUgyintezes/>} />
-                <Route path='/munkavedelmi-tervek' element={<MunkavedelmiTervek/>} />
-                <Route path='/epitesi-munkahelyek-munkavedelmi-feladatai' element={<EpitesiMunkahelyek/>} />
-                <Route path='/tuzvedelmi-szabalyzat' element={<TuzvedelmiSzabalyzat/>} />
-                <Route path='/tuzvedelmi-ellenorzesek' element={<TuzvedelmiEllenorzesek/>} />
-                <Route path='/idoszakos-felulvizsgalatok-tuzvedelem' element={<IdoszakosFelulvizsgalatokT/>} />
-                <Route path='/tuzvedelmi-oktatas' element={<TuzvedelmiOktatas/>} />
-                <Route path='/katasztrofavedelem' element={<Katasztrofavedelem/>} />
-                <Route path='/tuzveszelyes-tevelenyseg' element={<TuzveszelyesTevekenyseg/>} />
-                <Route path='/ISO14001' element={<ISO14001/>} />
-                <Route path='/kornyezetvedelmi-ellenorzesek' element={<KornyezetvedelmiEll/>} />
-                <Route path='/talaj-vedelem' element={<TalajVedelem/>} />
-                <Route path='/veszelyes-anyagok-nyilvantartasa' element={<VeszelyesAnyagok/>} />
-                <Route path='/levegotisztasag-vedelem' element={<Levegotisztasag/>} />
-                <Route path='/kornyezetvedelmi-oktatas' element={<KornyezetvedelmiOktatas/>} />
-                <Route path='/hulladekkezeles' element={<Hulladekkezeles/>} />
-                <Route path='/kornyezetvedelmi-termekdij-bevallas' element={<Bevallas/>} />
-                <Route path='/epr-gyartoi-termekfelelossegi-dij-bevallas' element={<EPRBevallas/>} />
-            </Routes>
-            <Footer />
-        </BrowserRouter>
+    return (
+        <div className='overall' >
+            <BrowserRouter>
+                <Header />
+                <ScrollToTop />
+                <Routes>
+                    <Route path='/' element={<Home />} />
+                    <Route path='/kapcsolat' element={<ContactUs />} />
+                    <Route path='/munkavedelem' element={<OccupationalSafety />} />
+                    <Route path='/tuzvedelem' element={<FireSafety />} />
+                    <Route path='/kornyezetvedelem' element={<EnvironmentalProtection />} />
+                    <Route path='/referenciak' element={<ReferencesPage />} />
+                    <Route path="*" element={<NotFound />} />
+                    <Route path='/munkavedelmi-szabalyzat' element={<MunkavedelmiSzabalyzat />} />
+                    <Route path='/munkavedelmi-ellenorzesek' element={<MunkavedelmiEllenorzesek />} />
+                    <Route path='/idoszakos-felulvizsgalatok' element={<IdoszakosFelulvizsgalatok />} />
+                    <Route path='/balesetkivizsgalas' element={<Balesetkivizsgalas />} />
+                    <Route path='/uzembehelyezesek' element={<Uzembehelyezesek />} />
+                    <Route path='/munkavedelmi-oktatas' element={<MunkavedelmiOktatas />} />
+                    <Route path='/munkavedelmi-kockazatertekeles' element={<MunkavedelmiKockazatertekeles />} />
+                    <Route path='/biztonsagtechnikai-meresek' element={<BiztonsagtechnikaiMeresek />} />
+                    <Route path='/veszelyes-munkak' element={<VeszelyesMunkak />} />
+                    <Route path='/ISO-45001-MEBIR' element={<ISO45001MEBIR />} />
+                    <Route path='/emelogep-ugyintezes' element={<EmelogepUgyintezes />} />
+                    <Route path='/munkavedelmi-tervek' element={<MunkavedelmiTervek />} />
+                    <Route path='/epitesi-munkahelyek-munkavedelmi-feladatai' element={<EpitesiMunkahelyek />} />
+                    <Route path='/tuzvedelmi-szabalyzat' element={<TuzvedelmiSzabalyzat />} />
+                    <Route path='/tuzvedelmi-ellenorzesek' element={<TuzvedelmiEllenorzesek />} />
+                    <Route path='/idoszakos-felulvizsgalatok-tuzvedelem' element={<IdoszakosFelulvizsgalatokT />} />
+                    <Route path='/tuzvedelmi-oktatas' element={<TuzvedelmiOktatas />} />
+                    <Route path='/katasztrofavedelem' element={<Katasztrofavedelem />} />
+                    <Route path='/tuzveszelyes-tevelenyseg' element={<TuzveszelyesTevekenyseg />} />
+                    <Route path='/ISO14001' element={<ISO14001 />} />
+                    <Route path='/kornyezetvedelmi-ellenorzesek' element={<KornyezetvedelmiEll />} />
+                    <Route path='/talaj-vedelem' element={<TalajVedelem />} />
+                    <Route path='/veszelyes-anyagok-nyilvantartasa' element={<VeszelyesAnyagok />} />
+                    <Route path='/levegotisztasag-vedelem' element={<Levegotisztasag />} />
+                    <Route path='/kornyezetvedelmi-oktatas' element={<KornyezetvedelmiOktatas />} />
+                    <Route path='/hulladekkezeles' element={<Hulladekkezeles />} />
+                    <Route path='/kornyezetvedelmi-termekdij-bevallas' element={<Bevallas />} />
+                    <Route path='/epr-gyartoi-termekfelelossegi-dij-bevallas' element={<EPRBevallas />} />
+                </Routes>
+                <Footer />
+            </BrowserRouter>
+        </div>
     )
 }
 
