@@ -26,10 +26,6 @@ const ContactUs = () => {
                             <FaLinkedin  className="contact-us-icon" />
                             <a className="contact-us-info" href="https://www.linkedin.com/in/zsolt-papp-8270582b4/">LinkedIn</a>
                         </div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
                     </div>
                 </div>
             </section>
