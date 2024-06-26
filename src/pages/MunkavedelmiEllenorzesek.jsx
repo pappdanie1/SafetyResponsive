@@ -25,7 +25,7 @@ const MunkavedelmiEllenorzesek = () => {
                                 a közösen meghatározott határidőre elvégzésre kerüljenek.
                             </p>
                             <p className="subsection-content">
-                                Természetesen Munkavédelmi Hatósági ellenőrzések során is jelen
+                                Természetesen a Munkavédelmi Hatósági ellenőrzések során is jelen
                                 vagyunk és képviseljük ügyfeleink érdekeit.
                             </p>
                         </div>
