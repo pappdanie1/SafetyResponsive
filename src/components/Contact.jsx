@@ -16,10 +16,9 @@ const Contact = () => {
                   Amennyiben Munkavédelemmel, Tűzvédelemmel vagy Környezetvédelemmel
                   kapcsolatos kérdésük, megoldandó feladatuk merülne fel állunk
                   szíves rendelkezésükre a következő elérhetőségeinken vagy
-                  személyes megbeszélés alkalmával. Várjuk szíves érdeklődésüket.
+                  személyes megbeszélés alkalmával.<br></br> Várjuk szíves érdeklődésüket.
                 </p>
               </div>
-
             </div>
             <div className="main-contact-info-b" >
             <div className="main-phone">
