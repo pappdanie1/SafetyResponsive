@@ -12,7 +12,10 @@ const ContactUs = () => {
                 <div className="contact-us-subsection">
                     <div className="contact-us-info">
                         <div className="contact-us-item">
-                            <h2>Amennyiben Munkavédelemmel, Tűzvédelemmel vagy Környezetvédelemmel kapcsolatos kérdésük, megoldandó faladatuk merülne fel állunk szíves rendelkezésükre a következő elérhetőségeinken vagy személyes megbeszélés alkalmával. Várjuk szíves érdeklődésüket.</h2>
+                            <p>Amennyiben Munkavédelemmel, Tűzvédelemmel vagy Környezetvédelemmel kapcsolatos kérdésük, megoldandó faladatuk merülne fel állunk szíves rendelkezésükre a következő elérhetőségeinken vagy személyes megbeszélés alkalmával.</p>
+                        </div>
+                        <div className="contact-us-item">
+                            <p>Várjuk szíves érdeklődésüket.</p>
                         </div>
                         <div className="contact-us-item">
                             <IoPhonePortraitOutline className="contact-us-icon" />
