@@ -18,7 +18,7 @@ const Hulladekkezeles = () => {
                     <div className="text-container">
                         <h2>Hulladékkezelés</h2>
                         <p className="subsection-content">
-                            A hulladékkezelés magában foglalja a hulladék keletkezésének minimalizálását, szétválasztását, gyűjtését, szállítását, újrahasznosítását és ártalmatlanítását. A hatékony hulladékkezelés csökkenti a környezeti terhelést és elősegíti az erőforrások fenntartható használatát. A vállalatok számára fontos, hogy betartsák a jogszabályi előírásokat, és olyan technológiákat alkalmazzanak, amelyek minimalizálják a hulladék mennyiségét és maximalizálják az újrahasznosítást.
+                            A hulladékkezelés magában foglalja a hulladék keletkezésének minimalizálását, szétválasztását, gyűjtését, szállítását, újrahasznosítását és ártalmatlanítását. A hatékony hulladékkezelés csökkenti a környezeti terhelést és elősegíti az erőforrások fenntartható használatát. A vállalatok számára fontos, hogy betartsák a jogszabályi előírásokat és olyan technológiákat alkalmazzanak, amelyek minimalizálják a hulladék mennyiségét és maximalizálják az újrahasznosítást.
                         </p>
                         <p className="subsection-content">
                             Hulladékkezeléssel kapcsolatos szolgáltatásaink:
