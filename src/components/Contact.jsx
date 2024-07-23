@@ -27,7 +27,7 @@ const Contact = () => {
               </div>
               <div className="main-email">
                 <MdEmail className="main-icon" />
-                <a href="mailto:pappzsolt6903@gmail.com">pappzsolt6903@gmail.com</a>
+                <a href="mailto:info@ehs-szolgaltatas.com">info@ehs-szolgaltatas.com</a>
               </div>
               <div className="main-email">
                 <FaLinkedin className="main-icon" />

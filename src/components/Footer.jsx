@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="footer-contact-info">
                     <div className="footer-contact-item">
                         <MdEmail className="footer-icon" />
-                        <a className="footer-contact" href="mailto:pappzsolt6903@gmail.com">pappzsolt6903@gmail.com</a>
+                        <a className="footer-contact" href="mailto:info@ehs-szolgaltatas.com">info@ehs-szolgaltatas.com</a>
                     </div>
                     <div className="footer-contact-item">
                         <IoPhonePortraitOutline className="footer-icon" />

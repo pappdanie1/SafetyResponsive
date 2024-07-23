@@ -23,7 +23,7 @@ const ContactUs = () => {
                         </div>
                         <div className="contact-us-item">
                             <MdEmail className="contact-us-icon" />
-                            <a className="contact-us-info" href="mailto:pappzsolt6903@gmail.com">pappzsolt6903@gmail.com</a>
+                            <a className="contact-us-info" href="mailto:info@ehs-szolgaltatas.com">info@ehs-szolgaltatas.com</a>
                         </div>
                         <div className="contact-us-item">
                             <FaLinkedin  className="contact-us-icon" />

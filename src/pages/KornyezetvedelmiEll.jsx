@@ -27,12 +27,12 @@ const KornyezetvedelmiEll = () => {
                             <li><IoCheckmarkCircle className="check-icon" />Környezetvédelmi szabályozások betartása</li>
                             <li><IoCheckmarkCircle className="check-icon" />Környezeti hatások felmérése</li>
                             <li><IoCheckmarkCircle className="check-icon" />Hulladékgazdálkodás</li>
-                            <li><IoCheckmarkCircle className="check-icon" />Erőforrás-gazdálkodás (energia- és vízfelhasználás hatékonyságát)</li>
+                            <li><IoCheckmarkCircle className="check-icon" />Erőforrás-gazdálkodás (energia- és vízfelhasználás hatékonysága)</li>
                             <li><IoCheckmarkCircle className="check-icon" />Szennyezésmegelőzés és kockázatkezelés</li>
-                            <li><IoCheckmarkCircle className="check-icon" />Dokumentáció és nyilvántartások</li>
+                            <li><IoCheckmarkCircle className="check-icon" />Dokumentációk és nyilvántartások</li>
                         </ul>
                         <p className="subsection-content">
-                            A környezetvédelmi ellenőrzések eredményei alapján javaslatokat teszünk a szükséges fejlesztésekre és intézkedésekre, hogy a szervezetek környezetvédelmi teljesítményét javítsák és hozzájáruljanak a fenntarthatósághoz.
+                            A környezetvédelmi ellenőrzések eredményei alapján javaslatokat teszünk a szükséges fejlesztésekre és intézkedésekre, hogy a szervezetek környezetvédelmi teljesítményét javítsuk és hozzájáruljunk a fenntarthatósághoz.
                         </p>
                     </div>
                 </div>

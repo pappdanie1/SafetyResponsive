@@ -26,7 +26,7 @@ const Balesetkivizsgalas = () => {
                                 súlyos balesetek is.
                             </p>
                             <p className="subsection-content">
-                                Természetesen a munkaidő kieséssel járó balesetekkel,
+                                Természetesen a munkaidő kieséssel járó balesetekkel
                                 kapcsolatos hatósági ügyintézést is végezzük kompletten.
                             </p>
                             <p className="subsection-content">
