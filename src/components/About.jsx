@@ -13,20 +13,23 @@ const About = () => {
                 30 éves szakmai tapasztalattal és felsőfokú felkészültséggel rendelkezünk, amely szilárd alapot teremt a jogi szabályozásoknak való maradéktalan megfelelés biztosításához.<br></br>
                 Továbbá elkötelezettek vagyunk amellett, hogy közös együttműködéssel hozzájáruljunk a Cége folyamatos fejlődéshez.
             </p>
-                <div className="about-section__services">
-                    <div className="about-section__service">
-                        <h3>Munkahelyi Biztonság</h3>
-                        <p>Szakértő csapatunk segít a munkahelyi balesetek megelőzésében és a biztonságos munkakörnyezet kialakításában.</p>
-                    </div>
-                    <div className="about-section__service">
-                        <h3>Tűzvédelem</h3>
-                        <p>Tűzvédelmi tanácsadást végzünk és a tűzvédelmi feladatok ellátásban nyújtunk támogatást.</p>
-                    </div>
-                    <div className="about-section__service">
-                        <h3>Környezetvédelem</h3>
-                        <p>Szakértői tanácsadást nyújtunk környezetvédelmi kérdésekben, és segítünk a környezetvédelmi szabályoknak való megfelelésben.</p>
-                    </div>
-                    <img src="/src/assets/about.jpg" alt="Cégnév logója" className="about-section__image" />
+            <div className="about-section__services">
+                <div className="about-section__service">
+                    <h3>Munkahelyi Biztonság</h3>
+                    <p>Szakértő csapatunk segít a munkahelyi balesetek megelőzésében és a biztonságos munkakörnyezet kialakításában.</p>
+                </div>
+                <div className="about-section__service">
+                    <h3>Tűzvédelem</h3>
+                    <p>Tűzvédelmi tanácsadást végzünk és a tűzvédelmi feladatok ellátásban nyújtunk támogatást.</p>
+                </div>
+                <div className="about-section__service">
+                    <h3>Környezetvédelem</h3>
+                    <p>Szakértői tanácsadást nyújtunk környezetvédelmi kérdésekben, és segítünk a környezetvédelmi szabályoknak való megfelelésben.</p>
+                </div>
+                <div className="about-section__service">
+                    <h3>Energiahatékonyság</h3>
+                    <p>Szakértői tanácsadást nyújtunk az energiahatékonyság növelésére, segítve a költségek csökkentését és a fenntartható működés megvalósítását.</p>
+                </div>
             </div>
         </div>
     );

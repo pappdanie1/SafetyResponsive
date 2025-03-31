@@ -36,9 +36,6 @@ const EnvironmentalProtection = () => {
                 <Link to="/epr-gyartoi-termekfelelossegi-dij-bevallas">
                     <SafetyCard head={"EPR gyártói termékfelelőségi díj bevallás"} img={"/src/assets/epr.jpg"} />
                 </Link>
-                <Link to="/energiahatekonysag">
-                    <SafetyCard head={"Energiahatékonyság"} img={"/src/assets/energiahatekonysag.jpg"} />
-                </Link>
             </div>
         </div>
     );

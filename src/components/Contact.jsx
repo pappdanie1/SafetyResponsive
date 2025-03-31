@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="contact-text-container">
             <div className="main-name">
               <p>
-                Amennyiben Munkavédelemmel, Tűzvédelemmel vagy Környezetvédelemmel vagy Energiahatékonysággal
+                Amennyiben Munkavédelemmel, Tűzvédelemmel, Környezetvédelemmel vagy Energiahatékonysággal
                 kapcsolatos kérdésük, megoldandó feladatuk merülne fel állunk
                 szíves rendelkezésükre a következő elérhetőségeinken vagy
                 személyes megbeszélés alkalmával felajánljuk támogatásunkat.<br></br> Várjuk szíves érdeklődésüket.

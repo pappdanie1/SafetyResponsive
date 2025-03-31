@@ -3,6 +3,7 @@ import { FaHelmetSafety, FaFireExtinguisher  } from "react-icons/fa6";
 import { MdNaturePeople } from "react-icons/md";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
+import { MdEnergySavingsLeaf } from "react-icons/md";
 import '../css/CardContainer.css'
 
 
@@ -20,6 +21,10 @@ const CardContainer = () => {
 
     const handleNature = () => {
         navigate("/kornyezetvedelem")
+    }
+
+    const handleEnergy = () => {
+        navigate("/energiahatekonysag")
     }
 
     return (
@@ -46,7 +51,7 @@ const CardContainer = () => {
             <div className="card" onClick={handleFire}>
                 <FaFireExtinguisher className="icon" />
                 <h2>Tűzvédelem</h2>
-                <ul>
+                <ul className="align-left">
                     <li><IoCheckmarkCircle className="check-icon" />Tűzvédelmi szabályzat</li>
                     <li><IoCheckmarkCircle className="check-icon" />Tűzvédelmi ellenőrzések</li>
                     <li><IoCheckmarkCircle className="check-icon" />Időszakos felülvizsgálatok</li>
@@ -69,6 +74,22 @@ const CardContainer = () => {
                     <li><IoCheckmarkCircle className="check-icon" />Környezeti zaj</li>
                     <li><IoCheckmarkCircle className="check-icon" />Környezetvédelmi termékdíj bevallás</li>
                     <li><IoCheckmarkCircle className="check-icon" />EPR gyártói termékfelelőségi díj bevallás</li>
+                </ul>
+            </div>
+            <div className="card" onClick={handleEnergy}>
+                <MdEnergySavingsLeaf className="icon" />
+                <h2>Energiahatékonyság</h2>
+                <ul>
+                    <li><IoCheckmarkCircle className="check-icon" />Energetikai szakreferensi szolgáltatás</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Energiafelhasználás követése, jelentések készítése</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Almérők adatainak nyilvántartása</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Auditálásban való részvétel</li>
+                    <li><IoCheckmarkCircle className="check-icon" />EN ISO 50001 tanácsadás</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Üzemeltetési és fejlesztési javaslatok</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Energiamegtakarítás kimutatása</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Havi és éves fogyasztási jelentések</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Energiabeszerzési feladatok</li>
+                    <li><IoCheckmarkCircle className="check-icon" />Mérőeszközökre vonatkozó javaslatok</li>
                 </ul>
             </div>
         </div>

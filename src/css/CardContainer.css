@@ -16,6 +16,11 @@
     width: 470px;
 }
 
+.align-left {
+    width: 100%;
+    text-align: left;
+}
+
 .card:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transform: scale(1.02);
@@ -31,9 +36,16 @@
 }
 
 .check-icon {
-    font-size: 18px;
     color: #007bff;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
     margin-right: 10px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-container {
