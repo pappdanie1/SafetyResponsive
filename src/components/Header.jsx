@@ -21,6 +21,7 @@ const Header = () => {
                 <a href="/munkavedelem">Munkavédelem</a>
                 <a href="/tuzvedelem">Tűzvédelem</a>
                 <a href="/kornyezetvedelem">Környezetvédelem</a>
+                <a href="/energiahatekonysag">Energiahatékonyság</a>
                 <a href="/referenciak">Referenciák</a>
                 <a href="/kapcsolat">Kapcsolat</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar} >

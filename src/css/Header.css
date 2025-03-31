@@ -19,10 +19,27 @@ nav a {
     color: var(--textColor);
     text-decoration: none;
     font-size: 20px;
+    position: relative;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
     color: #007bff;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 header .nav-btn {
@@ -41,7 +58,7 @@ header .nav-btn {
     width: 50px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     header .nav-btn {
         visibility: visible;
         opacity: 1;
