@@ -31,6 +31,10 @@ const IdoszakosFelulvizsgalatok = () => {
                             <ul className="custom-list">
                                 <li>
                                     <IoCheckmarkCircle className="check-icon" />
+                                    Emelőgépek időszakos vizsgálatai (Fővizsgálat, Szerkezeti vizsgálat, Időszakos Biztonsági vizsgálat)
+                                </li>
+                                <li>
+                                    <IoCheckmarkCircle className="check-icon" />
                                     Létrák időszakos felülvizsgálata, dokumentálása
                                 </li>
                                 <li>

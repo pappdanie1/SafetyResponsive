@@ -7,7 +7,7 @@ const About = () => {
             <h2 className="about-section__title">Rólunk</h2>
             <p className="about-section__text">
                 Az <strong>EHS szolgáltatást</strong> nyújtó cégünk egy dinamikusan fejlődő vállalkozás, amely <strong>Munkavédelem,
-                Tűzvédelem és a Környezetvédelem</strong> területén nyújt szaktanácsadást, valamint szolgáltatást.<br></br>
+                Tűzvédelem, Környezetvédelem</strong> és az <strong>Energiahatékonyság</strong> területén nyújt szaktanácsadást, valamint szolgáltatást.<br></br>
                 Célunk, hogy <strong>Biztonságos és Környezettudatos</strong> tevékenységgel támogassuk a <strong>Cégek hosszútávú
                 Sikerét</strong>.<br></br>
                 30 éves szakmai tapasztalattal és felsőfokú felkészültséggel rendelkezünk, amely szilárd alapot teremt a jogi szabályozásoknak való maradéktalan megfelelés biztosításához.<br></br>

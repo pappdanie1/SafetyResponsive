@@ -2,80 +2,132 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    min-height: 100%;
     padding: 2rem;
     background-color: #ffffff;
 }
 
 .contact-us-section {
     width: 100%;
-    max-width: 800px;
-    text-align: center;
+    max-width: 1200px;
 }
 
 .contact-us-section h1 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     font-size: 45px;
+    text-align: center;
+}
+
+.contact-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.contact-text-content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 700px;
+}
+
+.contact-image-wrapper {
+    flex: 0 0 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-selfie {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    aspect-ratio: 3/4;
 }
 
 .contact-us-item p {
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: left;
 }
 
-.contact-us-subsection {
-    margin-bottom: 2rem;
+.contact-person-title {
+    margin: 1.5rem 0;
 }
 
-.contact-us-info {
+.contact-person-title p {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact-info-items {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .contact-us-item {
     display: flex;
     align-items: center;
-    justify-content: center; 
-    text-align: center; 
+    gap: 1rem;
 }
 
 .contact-us-icon {
-    font-size: 50px;
+    font-size: 30px;
     color: #007bff;
-    margin-right: 10px; 
+    flex-shrink: 0;
 }
 
-.contact-us-label-us {
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 5px;
-}
-
-.contact-us-info a {
+.contact-us-item a {
     color: #007bff;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     font-size: 20px;
 }
 
-.contact-us-info a:hover {
+.contact-us-item a:hover {
     color: #0056b3;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
+    .contact-content-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .contact-image-wrapper {
+        margin-bottom: 1.5rem;
+    }
+    
+    .contact-us-item p {
+        text-align: center;
+    }
+    
+    .contact-person-title p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
     .contact-us-section h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
-
-    .contact-us-icon {
-        font-size: 30px;
-    }
-
-    .contact-us-label-us {
+    
+    .contact-us-item p {
         font-size: 18px;
     }
-
-    .contact-us-info a {
+    
+    .contact-us-item a {
         font-size: 18px;
+    }
+    
+    .contact-selfie {
+        max-width: 250px;
     }
 }
