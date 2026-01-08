@@ -40,6 +40,7 @@ import Bevallas from './pages/Bevallas'
 import EPRBevallas from './pages/EPRBevallas'
 import ScrollToTop from  './components/ScrollToTop';
 import Energiahatekonysag from './pages/Energiahatekonysag'
+import MunkabiztonsagiSzakertoiTevekenyseg from './pages/MunkabiztonsagiSzakertoiTevekenyseg'
 
 function App() {
     return (
@@ -84,6 +85,7 @@ function App() {
                     <Route path='/kornyezetvedelmi-termekdij-bevallas' element={<Bevallas />} />
                     <Route path='/epr-gyartoi-termekfelelossegi-dij-bevallas' element={<EPRBevallas />} />
                     <Route path='/energiahatekonysag' element={<Energiahatekonysag />} />
+                    <Route path='/munkabiztonsagi-szakertoi-tevekenyseg' element={<MunkabiztonsagiSzakertoiTevekenyseg />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

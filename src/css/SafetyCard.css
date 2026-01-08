@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 .safety-card {
-  width: 24rem;
-  height: 28rem;
+  width: 18rem;
+  height: 22rem;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
@@ -60,6 +60,7 @@
   text-transform: uppercase;
   z-index: 3;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  font-size: 25px;
 }
 
 .safety-a {

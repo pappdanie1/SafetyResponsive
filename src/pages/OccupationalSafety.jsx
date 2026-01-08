@@ -8,6 +8,9 @@ const OccupationalSafety = () => {
         <div className="cards-cc">
             <h1 className="cards-title">Munkavédelem</h1>
             <div className="cards-container">
+                <Link to="/munkabiztonsagi-szakertoi-tevekenyseg">
+                    <SafetyCard head={"Munkabiztonsági Szakértői tevékenység"} img={"/src/assets/MunkabiztonsagiSzakertoiTevekenyseg.jpg"} />
+                </Link>
                 <Link to="/munkavedelmi-szabalyzat">
                     <SafetyCard head={"Munkavédelmi Szabályzat"} img={"/src/assets/munkavedelmi-szabalyzat.jpg"} />
                 </Link>

@@ -32,6 +32,19 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.subsection-content-b {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.subsection-content-c {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+
 .custom-list {
     list-style-type: none;
     padding-left: 0;

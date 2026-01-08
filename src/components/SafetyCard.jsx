@@ -6,7 +6,7 @@ const SafetyCard = (props) => {
     return (
         <div className="safety-card">
             <img className="card-img" src={props.img} alt="" />
-            <div className="safty-card-content">
+            <div>
                 <h2 className="safety-h2" >
                     {props.head}
                 </h2>
