@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import ell from '/src/assets/t-ell.png'
 
 
 const TuzvedelmiEllenorzesek = () => {
@@ -10,7 +11,7 @@ const TuzvedelmiEllenorzesek = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src="/src/assets/t-ell.png"
+                            src={ell}
                             alt="Fire Safety Inspections"
                             className="image"
                         />

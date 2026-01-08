@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import '../css/Header.css'
+import logo from '/src/assets/logo.png'
 
 
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
     return (
         <header>
             <Link to='/'>
-                <img className="header-logo" src="/src/assets/logo.png" alt="" />
+                <img className="header-logo" src={logo} alt="" />
             </Link>
             <nav ref={navRef}>
                 <a href="/">Kezdőlap</a>

@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import mebir from '/src/assets/mebir.jpg'
 
 
 const ISO45001MEBIR = () => {
@@ -11,7 +12,7 @@ const ISO45001MEBIR = () => {
                     <div className="content-wrapper">
                         <div className="image-container">
                             <img
-                                src={"/src/assets/mebir.jpg"}
+                                src={mebir}
                                 alt="ISO 45001 MEBIR"
                                 className="image"
                             />

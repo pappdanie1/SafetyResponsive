@@ -3,6 +3,7 @@ import '../css/Contact.css'
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa6";
+import pappzsolt from '/src/assets/pappzsolt.jpg'
 
 const Contact = () => {
   return (
@@ -24,7 +25,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="selfimg">
-            <img src="/src/assets/pappzsolt.jpg" alt="Papp Zsolt" className="selfie-image" />
+            <img src={pappzsolt} alt="Papp Zsolt" className="selfie-image" />
           </div>
         </div>
         <div className="main-contact-info-b">

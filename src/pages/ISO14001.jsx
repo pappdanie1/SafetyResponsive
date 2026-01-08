@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import numbers from '/src/assets/14001.jpg'
 
 
 const ISO14001 = () => {
@@ -10,7 +11,7 @@ const ISO14001 = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src={"/src/assets/14001.jpg"}
+                            src={numbers}
                             alt="ISO 14001 Környezetközpontú Irányítási Rendszerek"
                             className="image"
                         />

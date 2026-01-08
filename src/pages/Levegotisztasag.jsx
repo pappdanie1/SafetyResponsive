@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import levego from '/src/assets/levego.jpg'
 
 
 const Levegotisztasag = () => {
@@ -10,7 +11,7 @@ const Levegotisztasag = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src={"/src/assets/levego.jpg"}
+                            src={levego}
                             alt="Levegőtisztaság védelem"
                             className="image"
                         />

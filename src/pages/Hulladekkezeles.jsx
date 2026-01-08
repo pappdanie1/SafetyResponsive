@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import hulladek from '/src/assets/hulladek.jpg'
 
 
 const Hulladekkezeles = () => {
@@ -10,7 +11,7 @@ const Hulladekkezeles = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src={"/src/assets/hulladek.jpg"}
+                            src={hulladek}
                             alt="Example Image 3"
                             className="image"
                         />

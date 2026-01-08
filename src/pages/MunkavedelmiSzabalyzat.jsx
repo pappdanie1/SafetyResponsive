@@ -2,6 +2,7 @@ import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import "../css/Occupational.css"
 import "../css/Cards.css"
+import szabalyzat from '/src/assets/munkavedelmi-szabalyzat.jpg'
 
 
 const MunkavedelmiSzabalyzat = () => {
@@ -12,7 +13,7 @@ const MunkavedelmiSzabalyzat = () => {
             <div className="subsection">
               <div className="content-wrapper">
                 <div className="image-container">
-                  <img src={"/src/assets/munkavedelmi-szabalyzat.jpg"} alt="Image description" className="image" />
+                  <img src={szabalyzat} alt="Image description" className="image" />
                 </div>
                 <div className="text-container">
                   <h1>Munkavédelmi Szabályzat</h1>

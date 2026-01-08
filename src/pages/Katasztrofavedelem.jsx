@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import kataszt from '/src/assets/kataszt.jpg'
 
 
 const Katasztrofavedelem = () => {
@@ -10,7 +11,7 @@ const Katasztrofavedelem = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src="/src/assets/kataszt.jpg"
+                            src={kataszt}
                             alt="Disaster Management"
                             className="image"
                         />

@@ -1,6 +1,20 @@
 import React from "react";
 import SafetyCard from "../components/SafetyCard";
 import { Link } from "react-router-dom";
+import munkab from '/src/assets/MunkabiztonsagiSzakertoiTevekenyseg.jpg'
+import szabalyzat from '/src/assets/munkavedelmi-szabalyzat.jpg'
+import ell from '/src/assets/munkavedelmi-ell.jpg'
+import felul from '/src/assets/munkavedelmi-felul.jpg'
+import kivizs from '/src/assets/baleset-kivizs.jpg'
+import uzembeh from '/src/assets/uzembeh.jpg'
+import oktatas from '/src/assets/m-oktatas.jpg'
+import kockazat from '/src/assets/kockazat.jpg'
+import meresek from '/src/assets/b-meresek.jpg'
+import veszelyesm from '/src/assets/veszelyes-m.jpg'
+import mebir from '/src/assets/mebir.jpg'
+import emelogep from '/src/assets/emelogep.jpg'
+import tervek from '/src/assets/m-tervek.jpg'
+import epitesi from '/src/assets/epitesi-m.jpg'
 
 const OccupationalSafety = () => {
     
@@ -9,46 +23,46 @@ const OccupationalSafety = () => {
             <h1 className="cards-title">Munkavédelem</h1>
             <div className="cards-container">
                 <Link to="/munkabiztonsagi-szakertoi-tevekenyseg">
-                    <SafetyCard head={"Munkabiztonsági Szakértői tevékenység"} img={"/src/assets/MunkabiztonsagiSzakertoiTevekenyseg.jpg"} />
+                    <SafetyCard head={"Munkabiztonsági Szakértői tevékenység"} img={munkab} />
                 </Link>
                 <Link to="/munkavedelmi-szabalyzat">
-                    <SafetyCard head={"Munkavédelmi Szabályzat"} img={"/src/assets/munkavedelmi-szabalyzat.jpg"} />
+                    <SafetyCard head={"Munkavédelmi Szabályzat"} img={szabalyzat} />
                 </Link>
                 <Link to="/munkavedelmi-ellenorzesek">
-                    <SafetyCard head={"Munkavédelmi ellenőrzések"} img={"/src/assets/munkavedelmi-ell.jpg"} />
+                    <SafetyCard head={"Munkavédelmi ellenőrzések"} img={ell} />
                 </Link>
                 <Link to="/idoszakos-felulvizsgalatok">
-                    <SafetyCard head={"Időszakos felülvizsgálatok"} img={"/src/assets/munkavedelmi-felul.jpg"} />
+                    <SafetyCard head={"Időszakos felülvizsgálatok"} img={felul} />
                 </Link>
                 <Link to="/balesetkivizsgalas">
-                    <SafetyCard head={"Balesetkivizsgálás"} img={"/src/assets/baleset-kivizs.jpg"} />
+                    <SafetyCard head={"Balesetkivizsgálás"} img={kivizs} />
                 </Link>
                 <Link to="/uzembehelyezesek">
-                    <SafetyCard head={"Üzembehelyezések"} img={"/src/assets/uzembeh.jpg"} />
+                    <SafetyCard head={"Üzembehelyezések"} img={uzembeh} />
                 </Link>
                 <Link to="/munkavedelmi-oktatas">
-                    <SafetyCard head={"Munkavédelmi oktatás"} img={"/src/assets/m-oktatas.jpg"} />
+                    <SafetyCard head={"Munkavédelmi oktatás"} img={oktatas} />
                 </Link>
                 <Link to="/munkavedelmi-kockazatertekeles">
-                    <SafetyCard head={"Munkavédelmi kockázatértékelés"} img={"/src/assets/kockazat.jpg"} />
+                    <SafetyCard head={"Munkavédelmi kockázatértékelés"} img={kockazat} />
                 </Link>
                 <Link to="/biztonsagtechnikai-meresek">
-                    <SafetyCard head={"Biztonságtechnikai mérések"} img={"/src/assets/b-meresek.jpg"} />
+                    <SafetyCard head={"Biztonságtechnikai mérések"} img={meresek} />
                 </Link>
                 <Link to="/veszelyes-munkak">
-                    <SafetyCard head={"Veszélyes munkák"} img={"/src/assets/veszelyes-m.jpg"} />
+                    <SafetyCard head={"Veszélyes munkák"} img={veszelyesm} />
                 </Link>
                 <Link to="/ISO-45001-MEBIR">
-                    <SafetyCard head={"ISO 45001 MEBIR"} img={"/src/assets/mebir.jpg"} />
+                    <SafetyCard head={"ISO 45001 MEBIR"} img={mebir} />
                 </Link>
                 <Link to="/emelogep-ugyintezes">
-                    <SafetyCard head={"Emelőgép ügyintézés"} img={"/src/assets/emelogep.jpg"} />
+                    <SafetyCard head={"Emelőgép ügyintézés"} img={emelogep} />
                 </Link>
                 <Link to="/munkavedelmi-tervek">
-                    <SafetyCard head={"Munkavédelmi tervek"} img={"/src/assets/m-tervek.jpg"} />
+                    <SafetyCard head={"Munkavédelmi tervek"} img={tervek} />
                 </Link>
                 <Link to="/epitesi-munkahelyek-munkavedelmi-feladatai">
-                    <SafetyCard head={"Építési munkahelyek munkavédelmi feladatai"} img={"/src/assets/epitesi-m.jpg"} />
+                    <SafetyCard head={"Építési munkahelyek munkavédelmi feladatai"} img={epitesi} />
                 </Link>
             </div>
         </div>

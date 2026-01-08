@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import szab from '/src/assets/t-szab.jpg'
 
 
 const TuzvedelmiSzabalyzat = () => {
@@ -10,7 +11,7 @@ const TuzvedelmiSzabalyzat = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src={"/src/assets/t-szab.jpg"}
+                            src={szab}
                             alt="Fire Safety Regulations"
                             className="image"
                         />

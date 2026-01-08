@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import ido from '/src/assets/ido-f.jpg'
 
 
 const IdoszakosFelulvizsgalatokT = () => {
@@ -10,7 +11,7 @@ const IdoszakosFelulvizsgalatokT = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src="/src/assets/ido-f.jpg"
+                            src={ido}
                             alt="Periodic Inspections"
                             className="image"
                         />

@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import talaj from '/src/assets/talaj-v.jpg'
 
 
 const TalajVedelem = () => {
@@ -10,7 +11,7 @@ const TalajVedelem = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src={"/src/assets/talaj-v.jpg"}
+                            src={talaj}
                             alt="Talaj védelem"
                             className="image"
                         />

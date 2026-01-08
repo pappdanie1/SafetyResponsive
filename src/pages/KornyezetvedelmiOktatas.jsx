@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import okt from '/src/assets/k-okt.jpg'
 
 
 const KornyezetvedelmiOktatas = () => {
@@ -10,7 +11,7 @@ const KornyezetvedelmiOktatas = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src={"/src/assets/k-okt.jpg"}
+                            src={okt}
                             alt="Example Image 2"
                             className="image"
                         />

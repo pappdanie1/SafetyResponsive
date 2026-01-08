@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import okt from '/src/assets/t-okt.jpg'
 
 
 const TuzvedelmiOktatas = () => {
@@ -10,7 +11,7 @@ const TuzvedelmiOktatas = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src="/src/assets/t-okt.jpg"
+                            src={okt}
                             alt="Fire Safety Training"
                             className="image"
                         />

@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import uzembeh from '/src/assets/uzembeh.jpg'
 
 
 const Uzembehelyezesek = () => {
@@ -11,7 +12,7 @@ const Uzembehelyezesek = () => {
                     <div className="content-wrapper">
                         <div className="image-container">
                             <img
-                                src={"/src/assets/uzembeh.jpg"}
+                                src={uzembeh}
                                 alt="Üzembehelyezések"
                                 className="image"
                             />

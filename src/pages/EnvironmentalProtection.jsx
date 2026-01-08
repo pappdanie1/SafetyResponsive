@@ -1,6 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SafetyCard from "../components/SafetyCard";
+import numbrs from '/src/assets/14001.jpg'
+import epr from '/src/assets/epr.jpg'
+import kell from '/src/assets/k-ell.jpg'
+import talajv from '/src/assets/talaj-v.jpg'
+import veszelyes from '/src/assets/veszelyes-a.jpg'
+import levego from '/src/assets/levego.jpg'
+import okt from '/src/assets/k-okt.jpg'
+import hulladek from '/src/assets/hulladek.jpg'
+import termek from '/src/assets/k-termek.jpg'
 
 const EnvironmentalProtection = () => {
 
@@ -10,31 +19,31 @@ const EnvironmentalProtection = () => {
             <h1 className="cards-title">Környezetvédelem</h1>
             <div className="cards-container">
                 <Link to="/ISO14001">
-                    <SafetyCard head={"ISO14001 Környezetközpontú Irányítási Rendszerek"} img={"/src/assets/14001.jpg"} />
+                    <SafetyCard head={"ISO14001 Környezetközpontú Irányítási Rendszerek"} img={numbrs} />
                 </Link>
                 <Link to="/kornyezetvedelmi-ellenorzesek">
-                    <SafetyCard head={"Környezetvédelmi ellenőrzések"} img={"/src/assets/k-ell.jpg"} />
+                    <SafetyCard head={"Környezetvédelmi ellenőrzések"} img={kell} />
                 </Link>
                 <Link to="/talaj-vedelem">
-                    <SafetyCard head={"Talaj védelem"} img={"/src/assets/talaj-v.jpg"} />
+                    <SafetyCard head={"Talaj védelem"} img={talajv} />
                 </Link>
                 <Link to="/veszelyes-anyagok-nyilvantartasa">
-                    <SafetyCard head={"Veszélyes anyagok nyilvántartása"} img={"/src/assets/veszelyes-a.jpg"} />
+                    <SafetyCard head={"Veszélyes anyagok nyilvántartása"} img={veszelyes} />
                 </Link>
                 <Link to="/levegotisztasag-vedelem">
-                    <SafetyCard head={"Levegőtisztaság védelem"} img={"/src/assets/levego.jpg"} />
+                    <SafetyCard head={"Levegőtisztaság védelem"} img={levego} />
                 </Link>
                 <Link to="/kornyezetvedelmi-oktatas">
-                    <SafetyCard head={"Környezetvédelmi oktatás"} img={"/src/assets/k-okt.jpg"} />
+                    <SafetyCard head={"Környezetvédelmi oktatás"} img={okt} />
                 </Link>
                 <Link to="/hulladekkezeles">
-                    <SafetyCard head={"Hulladékkezelés"} img={"/src/assets/hulladek.jpg"} />
+                    <SafetyCard head={"Hulladékkezelés"} img={hulladek} />
                 </Link>
                 <Link to="/kornyezetvedelmi-termekdij-bevallas">
-                    <SafetyCard head={"Környezetvédelmi termékdíj bevallás"} img={"/src/assets/k-termek.jpg"} />
+                    <SafetyCard head={"Környezetvédelmi termékdíj bevallás"} img={termek} />
                 </Link>
                 <Link to="/epr-gyartoi-termekfelelossegi-dij-bevallas">
-                    <SafetyCard head={"EPR gyártói termékfelelőségi díj bevallás"} img={"/src/assets/epr.jpg"} />
+                    <SafetyCard head={"EPR gyártói termékfelelőségi díj bevallás"} img={epr} />
                 </Link>
             </div>
         </div>

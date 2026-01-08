@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import tervek from '/src/assets/m-tervek.jpg'
 
 
 const MunkavedelmiTervek = () => {
@@ -11,7 +12,7 @@ const MunkavedelmiTervek = () => {
                     <div className="content-wrapper">
                         <div className="image-container">
                             <img
-                                src="/src/assets/m-tervek.jpg" 
+                                src={tervek} 
                                 alt="Munkavédelmi tervek"
                                 className="image"
                             />

@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import epitesi from '/src/assets/epitesi-m.jpg'
 
 
 const EpitesiMunkahelyek = () => {
@@ -11,7 +12,7 @@ const EpitesiMunkahelyek = () => {
                     <div className="content-wrapper">
                         <div className="image-container">
                             <img
-                                src="/src/assets/epitesi-m.jpg"
+                                src={epitesi}
                                 alt="Építési munkahelyek munkavédelmi feladatai"
                                 className="image"
                             />

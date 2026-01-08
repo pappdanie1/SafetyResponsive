@@ -1,4 +1,5 @@
 import React from "react";
+import munkavedelmi from '/src/assets/munkavedelmi-ell.jpg'
 
 const MunkavedelmiEllenorzesek = () => {
 
@@ -9,7 +10,7 @@ const MunkavedelmiEllenorzesek = () => {
                     <div className="content-wrapper">
                         <div className="image-container">
                             <img
-                                src={"/src/assets/munkavedelmi-ell.jpg"}
+                                src={munkavedelmi}
                                 alt="Munkavédelmi Ellenőrzések"
                                 className="image"
                             />

@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import epr from '/src/assets/epr.jpg'
 
 
 const EPRBevallas = () => {
@@ -10,7 +11,7 @@ const EPRBevallas = () => {
                 <div className="content-wrapper">
                     <div className="image-container">
                         <img
-                            src={"/src/assets/epr.jpg"}
+                            src={epr}
                             alt="Example Image 5"
                             className="image"
                         />
