@@ -4,6 +4,7 @@ import { IoPhonePortraitOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa6";
 import pappzsolt from '/src/assets/pappzsolt.jpg'
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -28,6 +29,7 @@ const Contact = () => {
             <img src={pappzsolt} alt="Papp Zsolt" className="selfie-image" />
           </div>
         </div>
+        <ContactForm />
         <div className="main-contact-info-b">
           <div className="main-phone">
             <IoPhonePortraitOutline className="main-icon" />

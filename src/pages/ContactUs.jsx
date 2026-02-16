@@ -4,6 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa6";
 import '../css/ContactUs.css';
 import selfieImage from '../assets/pappzsolt.jpg';
+import ContactForm from "../components/ContactForm";
 
 const ContactUs = () => {
     return (
@@ -21,6 +22,7 @@ const ContactUs = () => {
                         <div className="contact-person-title">
                             <p>Papp Zsolt EHS Specialista</p>
                         </div>
+                        <ContactForm />
                         <div className="contact-info-items">
                             <div className="contact-us-item">
                                 <IoPhonePortraitOutline className="contact-us-icon" />
