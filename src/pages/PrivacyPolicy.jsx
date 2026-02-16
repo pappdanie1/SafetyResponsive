@@ -80,7 +80,7 @@ const PrivacyPolicy = () => {
         <section>
           <h2>5. Sütik kezelése</h2>
           <p>
-            Bármikor módosíthatja süti beállításait a weboldal jobb alsó sarkában 
+            Bármikor módosíthatja süti beállításait a weboldal bal alsó sarkában 
             található süti ikon segítségével, vagy böngészője beállításaiban.
           </p>
         </section>
