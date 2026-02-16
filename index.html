@@ -5,9 +5,96 @@
     <link rel="icon" type="jpg" href="./src/assets/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EHS Szolgáltatás</title>
+
+    <link rel="stylesheet" href="/cookie-banner/silktide-consent-manager.css">
+    
+    <style>
+      #silktide-banner a.silktide-logo,
+      #silktide-modal footer a[href*="silktide.com"] {
+        display: none !important;
+      }
+      
+      #silktide-wrapper a:focus,
+      #silktide-wrapper #silktide-banner button:focus,
+      #silktide-wrapper #silktide-modal button:focus,
+      #silktide-wrapper #silktide-cookie-icon:focus {
+        box-shadow: none !important;
+        outline: none !important;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied'
+      });
+      
+      gtag('js', new Date());
+      gtag('config', 'G-302X67T330');
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-302X67T330"></script>
+
+    <!-- Cookie banner -->
+    <script src="/cookie-banner/silktide-consent-manager.js"></script>
+    <script>
+      window.addEventListener('load', function() {
+        if (typeof silktideCookieBannerManager !== 'undefined') {
+          silktideCookieBannerManager.updateCookieBannerConfig({
+            background: {
+              showBackground: true
+            },
+            cookieIcon: {
+              position: "bottomLeft"
+            },
+            cookieTypes: [
+              {
+                id: "analytics",
+                name: "Analitika",
+                description: "<p>Ezek a sütik segítenek megérteni, hogyan használják a látogatók a weboldalt. Az adatokat névtelenül gyűjtjük és elemezzük.</p>",
+                required: false,
+                onAccept: function() {
+                  if (typeof gtag !== 'undefined') {
+                    gtag('consent', 'update', {
+                      analytics_storage: 'granted',
+                    });
+                  }
+                },
+                onReject: function() {
+                  if (typeof gtag !== 'undefined') {
+                    gtag('consent', 'update', {
+                      analytics_storage: 'denied',
+                    });
+                  }
+                }
+              }
+            ],
+            text: {
+              banner: {
+                description: "<p>Sütiket használunk, hogy javítsuk a felhasználói élményt és elemezzük a forgalmat. <a href=\"/adatvedelmi-tajekoztato\" target=\"_blank\">Adatvédelmi tájékoztató.</a></p>",
+                acceptAllButtonText: "Összes elfogadása",
+                acceptAllButtonAccessibleLabel: "Összes süti elfogadása",
+                rejectNonEssentialButtonText: "Elutasítom",
+                rejectNonEssentialButtonAccessibleLabel: "Nem szükséges sütik elutasítása",
+                preferencesButtonText: "Beállítások",
+                preferencesButtonAccessibleLabel: "Süti beállítások megnyitása"
+              },
+              preferences: {
+                title: "Süti beállítások",
+                description: "<p>Tiszteletben tartjuk a magánélethez való jogát. Kiválaszthatja, mely sütiket engedélyezi.</p>",
+                creditLinkText: "",
+                creditLinkAccessibleLabel: ""
+              }
+            }
+          });
+        }
+      });
+    </script>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

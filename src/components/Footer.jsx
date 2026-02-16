@@ -46,7 +46,13 @@ const Footer = () => {
                         <a className="footer-contact" href="/kornyezetvedelem">Környezetvédelem</a>
                     </li>
                     <li>
+                        <a className="footer-contact" href="/energiahatekonysag">Energiahatékonyság</a>
+                    </li>
+                    <li>
                         <a className="footer-contact" href="/referenciak">Referenciák</a>
+                    </li>
+                    <li>
+                        <a className="footer-contact" href="/adatvedelmi-tajekoztato">Adatvédelmi Tájékoztató</a>
                     </li>
                 </ul>
             </div>

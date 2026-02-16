@@ -41,6 +41,8 @@ import EPRBevallas from './pages/EPRBevallas'
 import ScrollToTop from  './components/ScrollToTop';
 import Energiahatekonysag from './pages/Energiahatekonysag'
 import MunkabiztonsagiSzakertoiTevekenyseg from './pages/MunkabiztonsagiSzakertoiTevekenyseg'
+import ThankYou from './pages/ThankYou'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 
 function App() {
     return (
@@ -86,6 +88,8 @@ function App() {
                     <Route path='/epr-gyartoi-termekfelelossegi-dij-bevallas' element={<EPRBevallas />} />
                     <Route path='/energiahatekonysag' element={<Energiahatekonysag />} />
                     <Route path='/munkabiztonsagi-szakertoi-tevekenyseg' element={<MunkabiztonsagiSzakertoiTevekenyseg />} />
+                    <Route path='/koszonjuk' element={<ThankYou />} />
+                    <Route path="/adatvedelmi-tajekoztato" element={<PrivacyPolicy />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
