@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import hulladek from '/src/assets/hulladek.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const Hulladekkezeles = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>Hulladékkezelés és hulladékgazdálkodás - EHS Szolgáltatás</title>
+                <meta name="description" content="Szakszerű hulladékkezelési szolgáltatások: hulladékkezelés optimalizálása, éves adatszolgáltatás készítése, hulladék nyilvántartás vezetése." />
+                <meta property="og:image" content={new URL(hulladek, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -33,6 +39,7 @@ const Hulladekkezeles = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

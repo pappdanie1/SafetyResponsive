@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import tuzveszelyes from '/src/assets/tuzveszelyes.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const TuzveszelyesTevekenyseg = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>Tűzveszélyes tevékenység engedélyezése - EHS Szolgáltatás</title>
+                <meta name="description" content="Alkalomszerű tűzveszélyes tevékenységek engedélyezése: hegesztési munkák, forrasztás, kockázatértékelés, biztonsági intézkedések." />
+                <meta property="og:image" content={new URL(tuzveszelyes, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -41,6 +47,7 @@ const TuzveszelyesTevekenyseg = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

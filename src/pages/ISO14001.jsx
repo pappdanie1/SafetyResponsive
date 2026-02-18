@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import numbers from '/src/assets/14001.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const ISO14001 = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>ISO 14001 Környezetközpontú Irányítási Rendszerek - EHS Szolgáltatás</title>
+                <meta name="description" content="ISO 14001 szabvány alkalmazása és támogatás: rendszer kezelése, dokumentálása, auditok bonyolítása, vezetőségi átvizsgálás, jogszabály regiszter." />
+                <meta property="og:image" content={new URL(numbers, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -35,6 +41,7 @@ const ISO14001 = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

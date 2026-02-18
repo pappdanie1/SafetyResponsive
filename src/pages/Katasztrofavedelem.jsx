@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import kataszt from '/src/assets/kataszt.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const Katasztrofavedelem = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>Katasztrófavédelem - EHS Szolgáltatás</title>
+                <meta name="description" content="Veszélyes ipari védelmi ügyintézés a 219/2011. Korm. rendelet alapján. Alsó és felső küszöbértékű veszélyes anyagokkal foglalkozó üzemek támogatása." />
+                <meta property="og:image" content={new URL(kataszt, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -35,6 +41,7 @@ const Katasztrofavedelem = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import epr from '/src/assets/epr.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const EPRBevallas = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>EPR gyártói termékfelelőségi díj bevallás - EHS Szolgáltatás</title>
+                <meta name="description" content="EPR kiterjesztett gyártói felelősség rendszerének szakértői támogatása. Csomagolások, műanyag termékek, elektromos berendezések és egyéb termékek bevallása." />
+                <meta property="og:image" content={new URL(epr, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -49,6 +55,7 @@ const EPRBevallas = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

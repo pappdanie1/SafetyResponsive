@@ -1,11 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import ktermek from '/src/assets/k-termek.jpg'
+import { Helmet } from "react-helmet-async";
 
 const Bevallas = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>Környezetvédelmi termékdíj bevallás - EHS Szolgáltatás</title>
+                <meta name="description" content="A környezetvédelmi termékdíj bevallásával kapcsolatos szakértői szolgáltatások. Segítünk a termékdíjköteles termékek bevallásában és a jogszabályi megfelelésben." />
+                <meta property="og:image" content={new URL(ktermek, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -51,6 +58,7 @@ const Bevallas = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

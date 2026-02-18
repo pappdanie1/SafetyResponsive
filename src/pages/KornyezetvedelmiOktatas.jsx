@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import okt from '/src/assets/k-okt.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const KornyezetvedelmiOktatas = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>Környezetvédelmi oktatás - EHS Szolgáltatás</title>
+                <meta name="description" content="Környezetvédelmi oktatás alkalmazottak részére: előzetes és időszakos környezetvédelmi képzések a környezettudatosság növelése érdekében." />
+                <meta property="og:image" content={new URL(okt, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -32,6 +38,7 @@ const KornyezetvedelmiOktatas = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

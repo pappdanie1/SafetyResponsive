@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import talaj from '/src/assets/talaj-v.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const TalajVedelem = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>Talajvédelem - EHS Szolgáltatás</title>
+                <meta name="description" content="Talajvízfigyelő monitoring kút ellenőrzése: kút állapotának vizsgálata, mintavétel, laboratóriumi elemzés, jelentés készítése." />
+                <meta property="og:image" content={new URL(talaj, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -39,6 +45,7 @@ const TalajVedelem = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import szab from '/src/assets/t-szab.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const TuzvedelmiSzabalyzat = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>Tűzvédelmi szabályzat - EHS Szolgáltatás</title>
+                <meta name="description" content="Tűzvédelmi szabályzat készítése a 101/2023. BM rendelet szerint: tűzmegelőzés, tűzjelzés, menekülési útvonalak, tűzoltó eszközök." />
+                <meta property="og:image" content={new URL(szab, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -38,8 +44,7 @@ const TuzvedelmiSzabalyzat = () => {
                     </div>
                 </div>
             </div>
-        </div>
-    );
+        </div>        </>    );
 }
 
 export default TuzvedelmiSzabalyzat

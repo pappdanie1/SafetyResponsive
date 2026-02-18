@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import ido from '/src/assets/ido-f.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const IdoszakosFelulvizsgalatokT = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>Tűzvédelmi időszakos felülvizsgálatok - EHS Szolgáltatás</title>
+                <meta name="description" content="Tűzvédelmi időszakos felülvizsgálatok elvégzése a 54/2014. (XII. 5.) BM rendelet szerint: elektromos berendezések, villámvédelem, robbanásvédelem, tűzoltó készülékek." />
+                <meta property="og:image" content={new URL(ido, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -39,8 +45,7 @@ const IdoszakosFelulvizsgalatokT = () => {
                     </div>
                 </div>
             </div>
-        </div>
-    );
+        </div>        </>    );
 }
 
 export default IdoszakosFelulvizsgalatokT

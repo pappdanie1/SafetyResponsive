@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import energiahatekonysag from '/src/assets/energiahatekonysag.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const Energiahatekonysag = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>Energiahatékonyság - EHS Szolgáltatás</title>
+                <meta name="description" content="Energiahatékonysági szakreferensi szolgáltatások a 2015. évi LVII. törvény alapján. Energiafelhasználás nyomon követése, mérések, jelentések készítése." />
+                <meta property="og:image" content={new URL(energiahatekonysag, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <section className="section">
                 <div className="subsection">
                     <div className="content-wrapper">
@@ -88,6 +94,7 @@ const Energiahatekonysag = () => {
                 </div>
             </section>
         </div>
+        </>
     );
 }
 

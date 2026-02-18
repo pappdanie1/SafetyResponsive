@@ -1,12 +1,18 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import levego from '/src/assets/levego.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const Levegotisztasag = () => {
 
     return (
-        <div className="container">
+        <>
+            <Helmet>
+                <title>Levegőtisztaság védelem - EHS Szolgáltatás</title>
+                <meta name="description" content="Levegőtisztasági védelem: pontforrások engedélyeztetése, légszennyező kibocsátások mérése, éves bevallás, levegőterhelési díj analitika." />
+                <meta property="og:image" content={new URL(levego, "https://ehs-szolgaltatas.com").href} />
+            </Helmet>
+            <div className="container">
             <div className="subsection">
                 <div className="content-wrapper">
                     <div className="image-container">
@@ -34,6 +40,7 @@ const Levegotisztasag = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

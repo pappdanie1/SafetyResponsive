@@ -3,12 +3,18 @@ import { IoCheckmarkCircle } from "react-icons/io5";
 import "../css/Occupational.css"
 import "../css/Cards.css"
 import munkab from '/src/assets/MunkabiztonsagiSzakertoiTevekenyseg.jpg'
-
+import { Helmet } from "react-helmet-async";
 
 const MunkabiztonsagiSzakertoiTevekenyseg = () => {
 
   return (
-    <div className="container">
+    <>
+      <Helmet>
+        <title>Munkabiztonsági Szakértői tevékenység - EHS Szolgáltatás</title>
+        <meta name="description" content="Magyar Mérnöki Kamara által jóváhagyott munkabiztonsági szakértői tevékenység: anyagmozgatás biztonsága, építményigazolványi eljárások, munkavédelmi vizsgálatok." />
+        <meta property="og:image" content={new URL(munkab, "https://ehs-szolgaltatas.com").href} />
+      </Helmet>
+      <div className="container">
       <section className="section">
         <div className="subsection">
           <div className="content-wrapper">
@@ -161,7 +167,8 @@ const MunkabiztonsagiSzakertoiTevekenyseg = () => {
         </div>
       </section>
     </div>
+    </>
   );
-}
+};
 
-export default MunkabiztonsagiSzakertoiTevekenyseg
+export default MunkabiztonsagiSzakertoiTevekenyseg;

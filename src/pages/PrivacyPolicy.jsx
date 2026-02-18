@@ -1,11 +1,17 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import '../css/PrivacyPolicy.css';
 
 const PrivacyPolicy = () => {
   return (
-    <div className="privacy-container">
-      <div className="privacy-content">
-        <h1>Adatvédelmi Tájékoztató</h1>
+    <>
+      <Helmet>
+        <title>Adatvédelmi Tájékoztató | EHS Szolgáltatás</title>
+        <meta name="description" content="Az EHS Szolgáltatás adatvédelmi tájékoztatója: sütik, kapcsolatfelvétel során kezelt adatok és jogorvoslati lehetőségek." />
+      </Helmet>
+      <div className="privacy-container">
+        <div className="privacy-content">
+          <h1>Adatvédelmi Tájékoztató</h1>
         
         <section>
           <h2>1. Általános információk</h2>
@@ -107,8 +113,9 @@ const PrivacyPolicy = () => {
           </p>
           <p><strong>Utolsó frissítés:</strong> 2025. február 16.</p>
         </section>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
