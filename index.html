@@ -5,6 +5,8 @@
     <link rel="icon" type="image/png" href="./src/assets/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EHS Szolgáltatás</title>
+    <meta name="description" content="Munkavédelem, tűzvédelem, környezetvédelem és energiahatékonyság, 30 év tapasztalattal támogatjuk cége biztonságát és hosszú távú sikerét." />
+    <meta property="og:image" content="https://ehs-szolgaltatas.com/assets/img1-DGNdwiz_.jpg" />
 
     <link rel="stylesheet" href="/cookie-banner/silktide-consent-manager.css">
     
@@ -39,7 +41,6 @@
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-302X67T330"></script>
 
-    <!-- Cookie banner -->
     <script src="/cookie-banner/silktide-consent-manager.js"></script>
     <script>
       window.addEventListener('load', function() {
@@ -91,6 +92,11 @@
               }
             }
           });
+
+          setTimeout(() => {
+            const wrapper = document.getElementById('silktide-wrapper');
+            if (wrapper) wrapper.setAttribute('data-nosnippet', '');
+          }, 500);
         }
       });
     </script>
