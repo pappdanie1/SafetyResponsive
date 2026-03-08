@@ -91,24 +91,14 @@ function App() {
                                 "url": "https://ehs-szolgaltatas.com",
                                 "logo": "${new URL(logo, "https://ehs-szolgaltatas.com").href}",
                                 "description": "Munkavédelem, tűzvédelem, környezetvédelem és energiahatékonyság szolgáltatások. 30 év tapasztalattal támogatjuk cége biztonságát.",
-                                "address": [
-                                    {
-                                        "@type": "PostalAddress",
-                                        "addressLocality": "Budapest",
-                                        "addressCountry": "HU"
-                                    },
-                                    {
-                                        "@type": "PostalAddress",
-                                        "addressLocality": "Debrecen",
-                                        "addressCountry": "HU"
-                                    }
-                                ],
+                                "address": {
+                                    "@type": "PostalAddress",
+                                    "addressLocality": "Budapest",
+                                    "addressCountry": "HU"
+                                },
                                 "telephone": "+36308647319",
                                 "email": "info@ehs-szolgaltatas.com",
-                                "areaServed": {
-                                    "@type": "Country",
-                                    "name": "Magyarország"
-                                },
+                                "areaServed": ["Budapest","Debrecen","Magyarország"],
                                 "serviceType": ["Munkavédelem", "Tűzvédelem", "Környezetvédelem", "Energiahatékonyság"]
                             }
                         `}</script>
