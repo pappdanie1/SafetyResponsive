@@ -89,13 +89,11 @@
             }
           });
 
-          setTimeout(() => {
-            const wrapper = document.getElementById('silktide-wrapper');
-            if (wrapper) {
-              wrapper.setAttribute('data-nosnippet', '');
-              wrapper.setAttribute('area-hidden', 'true')
-            }
-          }, 500);
+          const wrapper = document.getElementById('silktide-wrapper');
+          if (wrapper) {
+            wrapper.setAttribute('data-nosnippet', '');
+            wrapper.setAttribute('aria-hidden', 'true');
+          }
         }
       });
     </script>
