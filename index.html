@@ -5,7 +5,8 @@
     <link rel="icon" type="image/png" href="./src/assets/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/cookie-banner/silktide-consent-manager.css">
-    
+    <title>EHS Szolgáltatás | Munkavédelem, Tűzvédelem, Környezetvédelem</title>
+    <meta name="description" content="Munkavédelem, tűzvédelem, környezetvédelem és energiahatékonyság, 30 év tapasztalattal támogatjuk cége biztonságát." />
     <style>
       #silktide-banner a.silktide-logo,
       #silktide-modal footer a[href*="silktide.com"] {
@@ -23,6 +24,7 @@
   </head>
   <body>
     <div id="root"></div>
+    <div id="silktide-wrapper" ></div>
 
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -88,11 +90,6 @@
               }
             }
           });
-
-          const wrapper = document.getElementById('silktide-wrapper');
-          if (wrapper) {
-            wrapper.setAttribute('data-nosnippet', '');
-          }
         }
       });
     </script>
