@@ -3,7 +3,6 @@ import { IoCheckmarkCircle } from "react-icons/io5";
 import mebir from '/src/assets/mebir.jpg'
 import { Helmet } from "react-helmet-async";
 
-
 const ISO45001MEBIR = () => {
 
     return (
@@ -12,16 +11,34 @@ const ISO45001MEBIR = () => {
                 <title>ISO 45001 MEBIR - EHS Szolgáltatás</title>
                 <meta name="description" content="Az ISO 45001 MEBIR egy munkahelyi egészségvédelem és biztonság irányítási rendszer, amely segíti a szervezeteket a munkahelyi balesetek és egészségkárosodások megelőzésében, valamint a munkavállalók jólétének javításában." />
                 <meta property="og:image" content={new URL(mebir, "https://ehs-szolgaltatas.com").href} />
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "ISO 45001 MEBIR",
+                        "description": "Munkahelyi egészségvédelem és biztonság irányítási rendszer. Segítjük a szervezeteket a munkahelyi balesetek megelőzésében és a munkavállalók jólétének javításában.",
+                        "provider": {
+                            "@type": "ProfessionalService",
+                            "name": "EHS Szolgáltatás",
+                            "url": "https://ehs-szolgaltatas.com"
+                        },
+                        "areaServed": "HU",
+                        "serviceType": "Munkavédelem"
+                    }
+                `}</script>
             </Helmet>
-            <div className="container">
-                <section className="section">
+            <main className="container">
+                <article className="section">
                     <div className="subsection">
                         <div className="content-wrapper">
                             <div className="image-container">
                                 <img
                                     src={mebir}
-                                    alt="ISO 45001 MEBIR"
+                                    alt="ISO 45001 MEBIR – munkahelyi egészségvédelem és biztonság irányítási rendszer"
                                     className="image"
+                                    width="600"
+                                    height="400"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="text-container">
@@ -40,36 +57,19 @@ const ISO45001MEBIR = () => {
                                     növeli a szervezet hitelességét és versenyképességét, valamint
                                     csökkenti a munkahelyi balesetek és betegségek számát.
                                 </p>
-                                <p className="subsection-content">
-                                    Támogatásaink a MEBIR alkalmazásával kapcsolatban:
-                                </p>
-                                <ul className="custom-list">
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Rendszer kezelése, dokumentálása
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Auditok bonyolítása
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Vezetőségi átvizsgálás
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Jogszabály regiszter
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Érdekelt felek elvárásai, stb.
-                                    </li>
+                                <h2>Támogatásaink a MEBIR alkalmazásával kapcsolatban:</h2>
+                                <ul className="custom-list" aria-label="ISO 45001 MEBIR támogatási szolgáltatások">
+                                    <li><IoCheckmarkCircle className="check-icon" />Rendszer kezelése, dokumentálása</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />Auditok bonyolítása</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />Vezetőségi átvizsgálás</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />Jogszabály regiszter</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />Érdekelt felek elvárásai, stb.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </article>
+            </main>
         </>
     );
 }

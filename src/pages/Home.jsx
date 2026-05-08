@@ -15,14 +15,15 @@ const Home = () => {
                 <meta name="description" content="Munkavédelem, tűzvédelem, környezetvédelem és energiahatékonyság, 30 év tapasztalattal támogatjuk cége biztonságát és hosszú távú sikerét." />
                 <meta property="og:image" content={new URL(img1, "https://ehs-szolgaltatas.com").href} />
             </Helmet>
-            <Carousel />
-            <CardContainer />
-            <About />
-            <Contact />
-            <References />
+            <main>
+                <Carousel />
+                <CardContainer />
+                <About />
+                <Contact />
+                <References />
+            </main>
         </>
-
     )
 }
 
-export default Home
+export default Home;

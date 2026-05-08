@@ -12,16 +12,34 @@ const MunkavedelmiKockazatertekeles = () => {
                 <title>Munkavédelmi kockázatértékelés | EHS Szolgáltatás</title>
                 <meta name="description" content="Munkavédelmi kockázatértékelés: azonosítás, elemzés és értékelés a biztonságos munkavégzés érdekében." />
                 <meta property="og:image" content={new URL(kockazat, "https://ehs-szolgaltatas.com").href} />
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Munkavédelmi kockázatértékelés",
+                        "description": "Munkavédelmi kockázatértékelés: azonosítás, elemzés és értékelés a biztonságos munkavégzés érdekében.",
+                        "provider": {
+                            "@type": "ProfessionalService",
+                            "name": "EHS Szolgáltatás",
+                            "url": "https://ehs-szolgaltatas.com"
+                        },
+                        "areaServed": "HU",
+                        "serviceType": "Munkavédelem"
+                    }
+                `}</script>
             </Helmet>
-            <div className="container">
-                <section className="section">
+            <main className="container">
+                <article className="section">
                     <div className="subsection">
                         <div className="content-wrapper">
                             <div className="image-container">
                                 <img
                                     src={kockazat}
-                                    alt="Munkavédelmi kockázatértékelés"
+                                    alt="Munkavédelmi kockázatértékelés – potenciális kockázatok azonosítása és értékelése"
                                     className="image"
+                                    width="600"
+                                    height="400"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="text-container">
@@ -39,7 +57,7 @@ const MunkavedelmiKockazatertekeles = () => {
                                 <p className="subsection-content">
                                     A kockázatértékeléseink tartalmazzák a következőket:
                                 </p>
-                                <ul className="custom-list">
+                                <ul className="custom-list" aria-label="Munkavédelmi kockázatértékelés területei">
                                     <li>
                                         <IoCheckmarkCircle className="check-icon" />
                                         A munkahely, munkakörnyezet vizsgálata
@@ -68,8 +86,8 @@ const MunkavedelmiKockazatertekeles = () => {
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </article>
+            </main>
         </>
     );
 }

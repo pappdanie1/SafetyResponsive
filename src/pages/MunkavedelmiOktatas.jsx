@@ -10,18 +10,36 @@ const MunkavedelmiOktatas = () => {
         <>
             <Helmet>
                 <title>Munkavédelmi oktatás | EHS Szolgáltatás</title>
-                <meta name="description" content="Munkavédelmi oktatás, amelyeket hatékonyan elvégzünk: előzetes munkavédelmi oktatás, időszakos munkavédelmi oktatás, éves ismétlődő oktatás emelőgépkezelők részére, elsősegélynyújtó képzés." />
+                <meta name="description" content="Munkavédelmi oktatás, amelyeket hatékonyan elvégzünk: előzetes és időszakos munkavédelmi oktatás, éves ismétlődő oktatás emelőgépkezelők részére, elsősegélynyújtó képzés." />
                 <meta property="og:image" content={new URL(oktatas, "https://ehs-szolgaltatas.com").href} />
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Munkavédelmi oktatás",
+                        "description": "Munkavédelmi oktatás: előzetes és időszakos munkavédelmi oktatás, éves ismétlődő oktatás emelőgépkezelők részére, elsősegélynyújtó képzés.",
+                        "provider": {
+                            "@type": "ProfessionalService",
+                            "name": "EHS Szolgáltatás",
+                            "url": "https://ehs-szolgaltatas.com"
+                        },
+                        "areaServed": "HU",
+                        "serviceType": "Munkavédelem"
+                    }
+                `}</script>
             </Helmet>
-            <div className="container">
-                <section className="section">
+            <main className="container">
+                <article className="section">
                     <div className="subsection">
                         <div className="content-wrapper">
                             <div className="image-container">
                                 <img
                                     src={oktatas}
-                                    alt="Munkavédelmi oktatás"
+                                    alt="Munkavédelmi oktatás – munkavállalók biztonságos munkavégzési képzése"
                                     className="image"
+                                    width="600"
+                                    height="400"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="text-container">
@@ -35,18 +53,18 @@ const MunkavedelmiOktatas = () => {
                                 <p className="subsection-content">
                                     Munkavédelmi oktatás, amelyeket hatékonyan elvégzünk:
                                 </p>
-                                <ul className="custom-list">
+                                <ul className="custom-list" aria-label="Munkavédelmi oktatások típusai">
                                     <li>
                                         <IoCheckmarkCircle className="check-icon" />
                                         Előzetes munkavédelmi oktatás :
                                         <ul className="nested-list">
-                                            <li className="li-2" >Munkába álláskor</li>
-                                            <li className="li-2" >Munkahely vagy munkakör megváltozásakor, valamint az
+                                            <li className="li-2">Munkába álláskor</li>
+                                            <li className="li-2">Munkahely vagy munkakör megváltozásakor, valamint az
                                                 egészséget nem veszélyeztető és biztonságos munkavégzés
                                                 követelményeinek változásakor</li>
-                                            <li className="li-2" >Munkaeszköz átalakításakor vagy új munkaeszköz
+                                            <li className="li-2">Munkaeszköz átalakításakor vagy új munkaeszköz
                                                 üzembe helyezésekor</li>
-                                            <li className="li-2" >Új technológia bevezetésekor</li>
+                                            <li className="li-2">Új technológia bevezetésekor</li>
                                         </ul>
                                     </li>
                                     <li>
@@ -65,8 +83,8 @@ const MunkavedelmiOktatas = () => {
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </article>
+            </main>
         </>
     );
 }

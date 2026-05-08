@@ -3,7 +3,6 @@ import { IoCheckmarkCircle } from "react-icons/io5";
 import epitesi from '/src/assets/epitesi-m.jpg'
 import { Helmet } from "react-helmet-async";
 
-
 const EpitesiMunkahelyek = () => {
 
     return (
@@ -12,27 +11,45 @@ const EpitesiMunkahelyek = () => {
                 <title>Építési munkahelyek munkavédelmi feladatai - EHS Szolgáltatás</title>
                 <meta name="description" content="Az építési munkahelyek munkavédelmi feladatai kiterjednek a munkahelyi biztonság és egészségvédelem számos aspektusára, biztosítva a dolgozók biztonságát és a balesetek megelőzését." />
                 <meta property="og:image" content={new URL(epitesi, "https://ehs-szolgaltatas.com").href} />
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Építési munkahelyek munkavédelmi feladatai",
+                        "description": "Az építési munkahelyek munkavédelmi feladatai: kockázatértékelés, biztonsági terv, védőfelszerelések, oktatás, helyszíni ellenőrzések.",
+                        "provider": {
+                            "@type": "ProfessionalService",
+                            "name": "EHS Szolgáltatás",
+                            "url": "https://ehs-szolgaltatas.com"
+                        },
+                        "areaServed": "HU",
+                        "serviceType": "Munkavédelem"
+                    }
+                `}</script>
             </Helmet>
-            <div className="container">
-                <section className="section">
+            <main className="container">
+                <article className="section">
                     <div className="subsection">
                         <div className="content-wrapper">
                             <div className="image-container">
                                 <img
                                     src={epitesi}
-                                    alt="Építési munkahelyek munkavédelmi feladatai"
+                                    alt="Építési munkahelyek munkavédelmi feladatai – építési terület biztonsági ellenőrzése"
                                     className="image"
+                                    width="600"
+                                    height="400"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="text-container">
-                                <h2>Építési munkahelyek munkavédelmi feladatai</h2>
+                                <h1>Építési munkahelyek munkavédelmi feladatai</h1>
                                 <p className="subsection-content">
                                     Az építési munkahelyek munkavédelmi feladatai kiterjednek a munkahelyi biztonság és egészségvédelem számos aspektusára, biztosítva a dolgozók biztonságát és a balesetek megelőzését.
                                 </p>
                                 <p className="subsection-content">
                                     Ezek a feladatok a következőket foglalják magukban:
                                 </p>
-                                <ul className="custom-list">
+                                <ul className="custom-list" aria-label="Építési munkahely munkavédelmi feladatai">
                                     <li><IoCheckmarkCircle className="check-icon" /><strong>Kockázatértékelés és veszélyelemzés:</strong> Az építési terület veszélyeinek és kockázatainak azonosítása és értékelése, hogy megfelelő védelmi intézkedéseket lehessen hozni.</li>
                                     <li><IoCheckmarkCircle className="check-icon" /><strong>Biztonsági és egészségvédelmi terv készítése:</strong> Részletes munkavédelmi terv kidolgozása, amely tartalmazza a védelmi intézkedéseket, a munkafolyamatok biztonságos végrehajtásának leírását, valamint a vészhelyzeti eljárásokat.</li>
                                     <li><IoCheckmarkCircle className="check-icon" /><strong>Védőfelszerelések biztosítása:</strong> A megfelelő egyéni védőeszközök (például sisakok, védőkesztyűk, védőszemüvegek) biztosítása és használatuk ellenőrzése.</li>
@@ -48,8 +65,8 @@ const EpitesiMunkahelyek = () => {
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </article>
+            </main>
         </>
     );
 }

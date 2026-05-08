@@ -3,7 +3,6 @@ import { IoCheckmarkCircle } from "react-icons/io5";
 import bmeresek from '/src/assets/b-meresek.jpg'
 import { Helmet } from "react-helmet-async";
 
-
 const BiztonsagtechnikaiMeresek = () => {
 
     return (
@@ -12,16 +11,34 @@ const BiztonsagtechnikaiMeresek = () => {
                 <title>Biztonságtechnikai mérések | EHS Szolgáltatás</title>
                 <meta name="description" content="Biztonságtechnikai mérések: munkahelyi zajmérés, rezgésmérés, légtérmérés és megvilágításmérés a biztonságos munkavégzés érdekében." />
                 <meta property="og:image" content={new URL(bmeresek, "https://ehs-szolgaltatas.com").href} />
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Biztonságtechnikai mérések",
+                        "description": "Munkahelyi zajmérés, rezgésmérés, légtérmérés és megvilágításmérés a biztonságos munkavégzés érdekében.",
+                        "provider": {
+                            "@type": "ProfessionalService",
+                            "name": "EHS Szolgáltatás",
+                            "url": "https://ehs-szolgaltatas.com"
+                        },
+                        "areaServed": "HU",
+                        "serviceType": "Munkavédelem"
+                    }
+                `}</script>
             </Helmet>
-            <div className="container">
-                <section className="section">
+            <main className="container">
+                <article className="section">
                     <div className="subsection">
                         <div className="content-wrapper">
                             <div className="image-container">
                                 <img
                                     src={bmeresek}
-                                    alt="Biztonságtechnikai mérések"
+                                    alt="Biztonságtechnikai mérések – munkahelyi zajmérés és légtérmérés"
                                     className="image"
+                                    width="600"
+                                    height="400"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="text-container">
@@ -40,29 +57,17 @@ const BiztonsagtechnikaiMeresek = () => {
                                 <p className="subsection-content">
                                     A következő méréseket végezzük szakértő kollégákkal:
                                 </p>
-                                <ul className="custom-list">
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Munkahelyi zajmérés
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Munkahelyi rezgésmérés
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Munkahelyi légtérmérés
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Megvilágításmérés
-                                    </li>
+                                <ul className="custom-list" aria-label="Biztonságtechnikai mérések típusai">
+                                    <li><IoCheckmarkCircle className="check-icon" />Munkahelyi zajmérés</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />Munkahelyi rezgésmérés</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />Munkahelyi légtérmérés</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />Megvilágításmérés</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </article>
+            </main>
         </>
     );
 }

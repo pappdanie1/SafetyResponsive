@@ -3,7 +3,6 @@ import { IoCheckmarkCircle } from "react-icons/io5";
 import balesetKivizs from '/src/assets/baleset-kivizs.jpg'
 import { Helmet } from "react-helmet-async";
 
-
 const Balesetkivizsgalas = () => {
 
     return (
@@ -15,16 +14,34 @@ const Balesetkivizsgalas = () => {
                     content="Balesetkivizsgálás: súlyos és munkaidő-kieséssel járó munkabalesetek, elsősegély-nyújtással járó események teljes körű dokumentálása, okfeltárás. Kiemelt munkavédelmi szakértelem!"
                 />
                 <meta property="og:image" content={new URL(balesetKivizs, "https://ehs-szolgaltatas.com").href} />
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Balesetkivizsgálás",
+                        "description": "Súlyos és munkaidő-kieséssel járó munkabalesetek, elsősegély-nyújtással járó események teljes körű dokumentálása, okfeltárás.",
+                        "provider": {
+                            "@type": "ProfessionalService",
+                            "name": "EHS Szolgáltatás",
+                            "url": "https://ehs-szolgaltatas.com"
+                        },
+                        "areaServed": "HU",
+                        "serviceType": "Munkavédelem"
+                    }
+                `}</script>
             </Helmet>
-            <div className="container">
-                <section className="section">
+            <main className="container">
+                <article className="section">
                     <div className="subsection">
                         <div className="content-wrapper">
                             <div className="image-container">
                                 <img
                                     src={balesetKivizs}
-                                    alt="Balesetkivizsgálás"
+                                    alt="Balesetkivizsgálás – munkahelyi baleset helyszíni dokumentálása"
                                     className="image"
+                                    width="600"
+                                    height="400"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="text-container">
@@ -43,37 +60,19 @@ const Balesetkivizsgalas = () => {
                                 <p className="subsection-content">
                                     Balesetek, amelyeket kivizsgálunk:
                                 </p>
-                                <ul className="custom-list">
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Súlyos munkabaleset
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        3 munkanapot meghaladó munkaidő kieséssel járó baleset
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        1-3 munkanapot meghaladó munkaidő kieséssel járó baleset
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Elsősegély-nyújtással járó baleset
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Kvázi baleset
-                                    </li>
-                                    <li>
-                                        <IoCheckmarkCircle className="check-icon" />
-                                        Úti balesetek
-                                    </li>
+                                <ul className="custom-list" aria-label="Kivizsgált balesetek típusai">
+                                    <li><IoCheckmarkCircle className="check-icon" />Súlyos munkabaleset</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />3 munkanapot meghaladó munkaidő kieséssel járó baleset</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />1-3 munkanapot meghaladó munkaidő kieséssel járó baleset</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />Elsősegély-nyújtással járó baleset</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />Kvázi baleset</li>
+                                    <li><IoCheckmarkCircle className="check-icon" />Úti balesetek</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </article>
+            </main>
         </>
     );
 }

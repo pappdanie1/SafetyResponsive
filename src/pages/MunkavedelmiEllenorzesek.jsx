@@ -13,16 +13,34 @@ const MunkavedelmiEllenorzesek = () => {
                     content="Munkavédelmi szemlék, bejárások és ügyfélképviselet hatósági ellenőrzésen - szakértő támogatás a biztonságos munkakörnyezetért, 30 év tapasztalattal."
                 />
                 <meta property="og:image" content={new URL(munkavedelmi, "https://ehs-szolgaltatas.com").href} />
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Munkavédelmi ellenőrzések",
+                        "description": "Munkavédelmi szemlék, bejárások és ügyfélképviselet hatósági ellenőrzésen - szakértő támogatás a biztonságos munkakörnyezetért, 30 év tapasztalattal.",
+                        "provider": {
+                            "@type": "ProfessionalService",
+                            "name": "EHS Szolgáltatás",
+                            "url": "https://ehs-szolgaltatas.com"
+                        },
+                        "areaServed": "HU",
+                        "serviceType": "Munkavédelem"
+                    }
+                `}</script>
             </Helmet>
-            <div className="container">
-                <section className="section">
+            <main className="container">
+                <article className="section">
                     <div className="subsection">
                         <div className="content-wrapper">
                             <div className="image-container">
                                 <img
                                     src={munkavedelmi}
-                                    alt="Munkavédelmi Ellenőrzések"
+                                    alt="Munkavédelmi ellenőrzések – szemlék és bejárások a biztonságos munkakörnyezetért"
                                     className="image"
+                                    width="600"
+                                    height="400"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="text-container">
@@ -42,8 +60,8 @@ const MunkavedelmiEllenorzesek = () => {
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </article>
+            </main>
         </>
     );
 }

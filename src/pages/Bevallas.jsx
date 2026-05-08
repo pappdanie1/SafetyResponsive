@@ -11,53 +11,68 @@ const Bevallas = () => {
                 <title>Környezetvédelmi termékdíj bevallás - EHS Szolgáltatás</title>
                 <meta name="description" content="A környezetvédelmi termékdíj bevallásával kapcsolatos szakértői szolgáltatások. Segítünk a termékdíjköteles termékek bevallásában és a jogszabályi megfelelésben." />
                 <meta property="og:image" content={new URL(ktermek, "https://ehs-szolgaltatas.com").href} />
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Környezetvédelmi termékdíj bevallás",
+                        "description": "A környezetvédelmi termékdíj bevallásával kapcsolatos szakértői szolgáltatások. Segítünk a termékdíjköteles termékek bevallásában és a jogszabályi megfelelésben.",
+                        "provider": {
+                            "@type": "ProfessionalService",
+                            "name": "EHS Szolgáltatás",
+                            "url": "https://ehs-szolgaltatas.com"
+                        },
+                        "areaServed": "HU",
+                        "serviceType": "Környezetvédelem"
+                    }
+                `}</script>
             </Helmet>
-            <div className="container">
-            <div className="subsection">
-                <div className="content-wrapper">
-                    <div className="image-container">
-                        <img
-                            src={ktermek}
-                            alt="Example Image 4"
-                            className="image"
-                        />
+            <main className="container">
+                <article className="subsection">
+                    <div className="content-wrapper">
+                        <div className="image-container">
+                            <img
+                                src={ktermek}
+                                alt="Környezetvédelmi termékdíj bevallás – termékdíjköteles csomagolóanyagok"
+                                className="image"
+                                width="600"
+                                height="400"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div className="text-container">
+                            <h1>Környezetvédelmi termékdíj bevallás</h1>
+                            <p className="subsection-content">
+                                A környezetvédelmi termékdíj egy olyan pénzügyi teher, amelyet bizonyos termékek gyártói, forgalmazói vagy importőrei kötelesek megfizetni annak érdekében, hogy hozzájáruljanak a környezet védelméhez. Magyarországon ezt a díjat a környezetvédelmi termékdíjról szóló törvény (2011. évi LXXXV. törvény) szabályozza. A termékdíjat elsősorban azokra a termékekre vetik ki, amelyek hulladékká válásukkor jelentős környezeti terhelést okoznak, és amelyeket újra lehet hasznosítani vagy környezetbarát módon kezelni.
+                            </p>
+                            <h2>Főbb termékcsoportok, amelyekre kivetik a termékdíjat:</h2>
+                            <ul className="custom-list" aria-label="Termékdíj-köteles termékcsoportok">
+                                <li><IoCheckmarkCircle className="check-icon" />Az akkumulátor</li>
+                                <li><IoCheckmarkCircle className="check-icon" />A csomagolószer</li>
+                                <li><IoCheckmarkCircle className="check-icon" />Az egyéb kőolajtermék</li>
+                                <li><IoCheckmarkCircle className="check-icon" />Az elektromos, elektronikus berendezés</li>
+                                <li><IoCheckmarkCircle className="check-icon" />A gumiabroncs</li>
+                                <li><IoCheckmarkCircle className="check-icon" />A reklámhordozó papír</li>
+                                <li><IoCheckmarkCircle className="check-icon" />Az egyéb műanyag termék</li>
+                                <li><IoCheckmarkCircle className="check-icon" />Az egyéb vegyipari termék</li>
+                                <li><IoCheckmarkCircle className="check-icon" />Az irodai papír</li>
+                            </ul>
+                            <p className="subsection-content">
+                                <strong>Bevallási kötelezettség: </strong>A termékdíjköteles termékek gyártóinak, forgalmazóinak vagy importőreinek rendszeres időközönként (általában negyedévente vagy évente) be kell vallaniuk a forgalomba hozott termékek mennyiségét és ennek megfelelően megfizetni a termékdíjat.
+                            </p>
+                            <p className="subsection-content">
+                                <strong>Nyilvántartási kötelezettség: </strong>Pontos nyilvántartást kell vezetni a termékdíjköteles termékekről és azok forgalmáról.
+                            </p>
+                            <p className="subsection-content">
+                                <strong>Mentesítések és kedvezmények: </strong>Bizonyos esetekben lehetőség van mentesítésre vagy kedvezményes díjfizetésre, például ha a gyártó vagy forgalmazó bizonyos környezetvédelmi feltételeknek megfelel, vagy ha bizonyos mennyiség alatti forgalomról van szó.
+                            </p>
+                            <p className="subsection-content">
+                                A környezetvédelmi termékdíj célja tehát a környezetre káros termékek környezetbarát kezelésének finanszírozása és a környezettudatos magatartás elősegítése.
+                            </p>
+                        </div>
                     </div>
-                    <div className="text-container">
-                        <h2>Környezetvédelmi termékdíj bevallás</h2>
-                        <p className="subsection-content">
-                            A környezetvédelmi termékdíj egy olyan pénzügyi teher, amelyet bizonyos termékek gyártói, forgalmazói vagy importőrei kötelesek megfizetni annak érdekében, hogy hozzájáruljanak a környezet védelméhez. Magyarországon ezt a díjat a környezetvédelmi termékdíjról szóló törvény (2011. évi LXXXV. törvény) szabályozza. A termékdíjat elsősorban azokra a termékekre vetik ki, amelyek hulladékká válásukkor jelentős környezeti terhelést okoznak, és amelyeket újra lehet hasznosítani vagy környezetbarát módon kezelni.
-                        </p>
-                        <p className="subsection-content">
-                            Főbb termékcsoportok, amelyekre kivetik a termékdíjat:
-                        </p>
-                        <ul className="custom-list">
-                            <li><IoCheckmarkCircle className="check-icon" />Az akkumulátor</li>
-                            <li><IoCheckmarkCircle className="check-icon" />A csomagolószer</li>
-                            <li><IoCheckmarkCircle className="check-icon" />Az egyéb kőolajtermék</li>
-                            <li><IoCheckmarkCircle className="check-icon" />Az elektromos, elektronikus berendezés</li>
-                            <li><IoCheckmarkCircle className="check-icon" />A gumiabroncs</li>
-                            <li><IoCheckmarkCircle className="check-icon" />A reklámhordozó papír</li>
-                            <li><IoCheckmarkCircle className="check-icon" />Az egyéb műanyag termék</li>
-                            <li><IoCheckmarkCircle className="check-icon" />Az egyéb vegyipari termék</li>
-                            <li><IoCheckmarkCircle className="check-icon" />Az egyéb kőolajtermék</li>
-                            <li><IoCheckmarkCircle className="check-icon" />Az irodai papír</li>
-                        </ul>
-                        <p className="subsection-content">
-                            <strong>Bevallási kötelezettség: </strong>A termékdíjköteles termékek gyártóinak, forgalmazóinak vagy importőreinek rendszeres időközönként (általában negyedévente vagy évente) be kell vallaniuk a forgalomba hozott termékek mennyiségét és ennek megfelelően megfizetni a termékdíjat.
-                        </p>
-                        <p className="subsection-content">
-                            <strong>Nyilvántartási kötelezettség: </strong>Pontos nyilvántartást kell vezetni a termékdíjköteles termékekről és azok forgalmáról.
-                        </p>
-                        <p className="subsection-content">
-                            <strong>Mentesítések és kedvezmények: </strong>Bizonyos esetekben lehetőség van mentesítésre vagy kedvezményes díjfizetésre, például ha a gyártó vagy forgalmazó bizonyos környezetvédelmi feltételeknek megfelel, vagy ha bizonyos mennyiség alatti forgalomról van szó.
-                        </p>
-                        <p className="subsection-content">
-                            A környezetvédelmi termékdíj célja tehát a környezetre káros termékek környezetbarát kezelésének finanszírozása és a környezettudatos magatartás elősegítése.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+                </article>
+            </main>
         </>
     );
 }

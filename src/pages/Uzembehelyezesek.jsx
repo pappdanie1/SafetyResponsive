@@ -15,16 +15,34 @@ const Uzembehelyezesek = () => {
                 content="Munkaeszközök üzembehelyezése: előzetes munkavédelmi vizsgálat, jogszabálykövető dokumentáció és kockázatértékelés. Biztonságos munkavégzés profi támogatással, 30 év szakértelemmel!"
                 />
                 <meta property="og:image" content={new URL(uzembeh, "https://ehs-szolgaltatas.com").href} />
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Üzembehelyezések",
+                        "description": "Munkaeszközök üzembehelyezése: előzetes munkavédelmi vizsgálat, jogszabálykövető dokumentáció és kockázatértékelés. Biztonságos munkavégzés profi támogatással.",
+                        "provider": {
+                            "@type": "ProfessionalService",
+                            "name": "EHS Szolgáltatás",
+                            "url": "https://ehs-szolgaltatas.com"
+                        },
+                        "areaServed": "HU",
+                        "serviceType": "Munkavédelem"
+                    }
+                `}</script>
             </Helmet>
-            <div className="container">
-                <section className="section">
+            <main className="container">
+                <article className="section">
                     <div className="subsection">
                         <div className="content-wrapper">
                             <div className="image-container">
                                 <img
                                     src={uzembeh}
-                                    alt="Üzembehelyezések"
+                                    alt="Üzembehelyezések – munkaeszközök munkavédelmi szempontú üzembe helyezése"
                                     className="image"
+                                    width="600"
+                                    height="400"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="text-container">
@@ -40,7 +58,7 @@ const Uzembehelyezesek = () => {
                                 <p className="subsection-content">
                                     Az üzembehelyezési eljárás során a következőket biztosítjuk:
                                 </p>
-                                <ul className="custom-list">
+                                <ul className="custom-list" aria-label="Üzembehelyezési eljárás lépései">
                                     <li>
                                         <IoCheckmarkCircle className="check-icon" />
                                         Munkavédelmi szempontú előzetes vizsgálat és az üzembe helyezés
@@ -55,8 +73,8 @@ const Uzembehelyezesek = () => {
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </article>
+            </main>
         </>
     );
 }

@@ -12,16 +12,34 @@ const VeszelyesMunkak = () => {
                 <title>Veszélyes munkák - EHS Szolgáltatás</title>
                 <meta name="description" content="Veszélyes munkák engedélyezése, kockázatértékelése és biztonsági intézkedések meghatározása a munkavállalók védelme érdekében." />
                 <meta property="og:image" content={new URL(veszelyes, "https://ehs-szolgaltatas.com").href} />
+                <script type="application/ld+json">{`
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Veszélyes munkák",
+                        "description": "Veszélyes munkák engedélyezése, kockázatértékelése és biztonsági intézkedések meghatározása a munkavállalók védelme érdekében.",
+                        "provider": {
+                            "@type": "ProfessionalService",
+                            "name": "EHS Szolgáltatás",
+                            "url": "https://ehs-szolgaltatas.com"
+                        },
+                        "areaServed": "HU",
+                        "serviceType": "Munkavédelem"
+                    }
+                `}</script>
             </Helmet>
-            <div className="container">
-                <section className="section">
+            <main className="container">
+                <article className="section">
                     <div className="subsection">
                         <div className="content-wrapper">
                             <div className="image-container">
                                 <img
                                     src={veszelyes}
-                                    alt="Veszélyes munkák"
+                                    alt="Veszélyes munkák – zárt térben és magasban történő munkavégzés engedélyezése"
                                     className="image"
+                                    width="600"
+                                    height="400"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="text-container">
@@ -43,7 +61,7 @@ const VeszelyesMunkak = () => {
                                 <p className="subsection-content">
                                     Engedélyezési eljárások:
                                 </p>
-                                <ul className="custom-list">
+                                <ul className="custom-list" aria-label="Veszélyes munkák engedélyezési eljárásai">
                                     <li>
                                         <IoCheckmarkCircle className="check-icon" />
                                         Zárt térben történő munkavégzés engedélyezése, feltételeinek
@@ -62,8 +80,8 @@ const VeszelyesMunkak = () => {
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </article>
+            </main>
         </>
     );
 }
