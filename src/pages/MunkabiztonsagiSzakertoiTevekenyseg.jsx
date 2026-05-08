@@ -48,12 +48,12 @@ const MunkabiztonsagiSzakertoiTevekenyseg = () => {
                 <p className="subsection-content-c">
                   A Magyar Mérnöki Kamara által jóváhagyott szakértői területek:
                 </p>
-                <p className="subsection-content">
+                <h2 className="subsection-content-h2">
                   <strong>
                     Mb2-SZ – Anyagmozgatás technológiája és eszközeinek biztonsága
                   </strong>
-                </p>
-                <p className="subsection-content-b">
+                </h2>
+                <p className="subsection-content-c">
                   A szakértő tevékenységei ezen a területen:
                 </p>
                 <ul className="custom-list" aria-label="Anyagmozgatás biztonságtechnikai feladatok">
@@ -93,12 +93,12 @@ const MunkabiztonsagiSzakertoiTevekenyseg = () => {
                     Hatósági ellenőrzések szakmai támogatása
                   </li>
                 </ul>
-                <p className="subsection-content">
+                <h2 className="subsection-content-h2">
                   <strong>
                     Mb5-SZ – Emelőgép technológiája és eszközeinek biztonsága
                   </strong>
-                </p>
-                <p className="subsection-content-b">
+                </h2>
+                <p className="subsection-content-c">
                   Ezen a szakterületen a munkabiztonsági szakértő feladatai:
                 </p>
                 <ul className="custom-list" aria-label="Emelőgép biztonsági feladatok">
@@ -141,12 +141,12 @@ const MunkabiztonsagiSzakertoiTevekenyseg = () => {
                     Hatósági eljárásokban szakértői közreműködés
                   </li>
                 </ul>
-                <p className="subsection-content">
+                <h2 className="subsection-content-h2">
                   <strong>
                     Mb24-SZ – Üzem és munkaszervezés
                   </strong>
-                </p>
-                <p className="subsection-content-b">
+                </h2>
+                <p className="subsection-content-c">
                   A szakértő tevékenységei üzem- és munkaszervezési szakterületen:
                 </p>
                 <ul className="custom-list" aria-label="Üzem és munkaszervezési feladatok">

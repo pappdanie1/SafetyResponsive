@@ -45,7 +45,7 @@ const KornyezetvedelmiEll = () => {
                             <p className="subsection-content">
                                 A környezetvédelmi ellenőrzések olyan folyamatok, amelyek célja a szervezetek környezetvédelmi előírásoknak való megfelelésének biztosítása és a környezeti hatások minimalizálása.
                             </p>
-                            <h2>Az ellenőrzések az alábbiakra terjednek ki:</h2>
+                            <h2 className="subsection-content-h2">Az ellenőrzések az alábbiakra terjednek ki:</h2>
                             <ul className="custom-list" aria-label="Környezetvédelmi ellenőrzések területei">
                                 <li><IoCheckmarkCircle className="check-icon" />Környezetvédelmi szabályozások betartása</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Környezeti hatások felmérése</li>

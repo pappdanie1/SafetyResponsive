@@ -45,9 +45,9 @@ const TuzveszelyesTevekenyseg = () => {
                             <p className="subsection-content">
                                 Az alkalomszerű tűzveszélyes tevékenységek engedélyezése során különös figyelmet kell fordítani a biztonsági előírások és szabályok betartására. Az ilyen tevékenységek lehetnek például hegesztési munkák, forrasztás, vagy más olyan munkafolyamatok, amelyek során nyílt lángot, szikrát vagy magas hőt használnak.
                             </p>
-                            <p className="subsection-content">
+                            <h2 className="subsection-content-h2">
                                 Az engedélyezési folyamat általában a következő lépéseket tartalmazza:
-                            </p>
+                            </h2>
                             <ul className="custom-list" aria-label="Tűzveszélyes tevékenység engedélyezési lépések">
                                 <li><IoCheckmarkCircle className="check-icon" /><strong>Kockázatértékelés: </strong>Az adott tevékenységhez kapcsolódó potenciális tűzveszélyek azonosítása és értékelése. Ez magában foglalja a tevékenység helyszínének és környezetének felmérését.</li>
                                 <li><IoCheckmarkCircle className="check-icon" /><strong>Engedélykérés: </strong>Az érintett munkavállalók vagy vállalkozók írásbeli kérelmet nyújtanak be a tűzveszélyes tevékenység végzésére. A kérelemnek tartalmaznia kell a tevékenység részleteit, időtartamát és helyszínét.</li>

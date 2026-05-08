@@ -45,7 +45,7 @@ const ISO14001 = () => {
                             <p className="subsection-content">
                                 Az ISO 14001 szabvány egy nemzetközi szabvány, amely a környezetközpontú irányítási rendszerek (KIR) követelményeit határozza meg. Célja, hogy a szervezetek hatékonyan kezeljék környezeti felelősségeiket, csökkentsék környezeti hatásaikat és megfeleljenek a vonatkozó jogszabályoknak, előírásoknak. Az ISO 14001 szabvány alkalmazása segíti a szervezeteket abban, hogy környezetvédelmi teljesítményüket folyamatosan javítsák, csökkentsék a környezeti kockázatokat és elősegítsék a fenntartható fejlődést.
                             </p>
-                            <h2>Támogatásaink a KIR alkalmazásával kapcsolatban:</h2>
+                            <h2 className="subsection-content-h2">Támogatásaink a KIR alkalmazásával kapcsolatban:</h2>
                             <ul className="custom-list" aria-label="ISO 14001 KIR támogatási szolgáltatások">
                                 <li><IoCheckmarkCircle className="check-icon" />Rendszer kezelése, dokumentálása</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Auditok bonyolítása</li>

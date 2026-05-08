@@ -58,9 +58,9 @@ const VeszelyesMunkak = () => {
                                     legyenek a veszélyekkel és a megelőző intézkedésekkel, így
                                     csökkentve a balesetek és egészségkárosodások kockázatát.
                                 </p>
-                                <p className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     Engedélyezési eljárások:
-                                </p>
+                                </h2>
                                 <ul className="custom-list" aria-label="Veszélyes munkák engedélyezési eljárásai">
                                     <li>
                                         <IoCheckmarkCircle className="check-icon" />

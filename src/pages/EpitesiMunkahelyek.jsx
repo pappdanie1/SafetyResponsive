@@ -46,9 +46,9 @@ const EpitesiMunkahelyek = () => {
                                 <p className="subsection-content">
                                     Az építési munkahelyek munkavédelmi feladatai kiterjednek a munkahelyi biztonság és egészségvédelem számos aspektusára, biztosítva a dolgozók biztonságát és a balesetek megelőzését.
                                 </p>
-                                <p className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     Ezek a feladatok a következőket foglalják magukban:
-                                </p>
+                                </h2>
                                 <ul className="custom-list" aria-label="Építési munkahely munkavédelmi feladatai">
                                     <li><IoCheckmarkCircle className="check-icon" /><strong>Kockázatértékelés és veszélyelemzés:</strong> Az építési terület veszélyeinek és kockázatainak azonosítása és értékelése, hogy megfelelő védelmi intézkedéseket lehessen hozni.</li>
                                     <li><IoCheckmarkCircle className="check-icon" /><strong>Biztonsági és egészségvédelmi terv készítése:</strong> Részletes munkavédelmi terv kidolgozása, amely tartalmazza a védelmi intézkedéseket, a munkafolyamatok biztonságos végrehajtásának leírását, valamint a vészhelyzeti eljárásokat.</li>

@@ -45,7 +45,7 @@ const KornyezetvedelmiOktatas = () => {
                             <p className="subsection-content">
                                 A környezetvédelmi oktatás kulcsfontosságú szerepet játszik a fenntartható jövő biztosításában. Célja, hogy növelje az alkalmazottak környezettudatosságát, valamint tudást és készségeket nyújtson a környezet védelméhez.
                             </p>
-                            <h2>A következő oktatásokat biztosítjuk ügyfeleink számára:</h2>
+                            <h2 className="subsection-content-h2">A következő oktatásokat biztosítjuk ügyfeleink számára:</h2>
                             <ul className="custom-list" aria-label="Környezetvédelmi oktatások típusai">
                                 <li><IoCheckmarkCircle className="check-icon" />Előzetes környezetvédelmi oktatás</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Időszakos környezetvédelmi oktatás</li>

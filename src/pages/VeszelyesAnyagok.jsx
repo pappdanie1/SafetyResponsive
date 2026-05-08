@@ -45,9 +45,9 @@ const VeszelyesAnyagok = () => {
                             <p className="subsection-content">
                                 A veszélyes anyagok nyilvántartása egy fontos folyamat, amelynek célja a veszélyes anyagok beszerzésének, tárolásának, felhasználásának és megsemmisítésének pontos dokumentálása és nyomon követése. Ez a nyilvántartás segít biztosítani, hogy a veszélyes anyagok kezelése megfeleljen a jogszabályi előírásoknak és a biztonsági követelményeknek, valamint minimalizálja a környezeti és egészségügyi kockázatokat.
                             </p>
-                            <p className="subsection-content">
+                            <h2 className="subsection-content-h2">
                                 A veszélyes anyagok nyilvántartása a következő információkat tartalmazza:
-                            </p>
+                            </h2>
                             <ul className="custom-list" aria-label="Veszélyes anyagok nyilvántartásának tartalma">
                                 <li><IoCheckmarkCircle className="check-icon" />Anyagok azonosítása</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Mennyiségi adatok</li>

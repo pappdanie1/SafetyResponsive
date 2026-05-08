@@ -45,9 +45,9 @@ const TuzvedelmiSzabalyzat = () => {
                             <p className="subsection-content">
                                 A tűzvédelmi szabályzat egy olyan dokumentum, amely meghatározza az adott szervezet vagy intézmény tűzvédelmi előírásait és eljárásait. Célja a tűz megelőzése, a tűz esetén követendő eljárások és a tűzoltás megszervezése.
                             </p>
-                            <p className="subsection-content">
+                            <h2 className="subsection-content-h2">
                                 Elkészítjük a szabályzatot, amely tartalmazza a következőket, továbbá a 101/2023. (XII. 29.) BM rendelet előírásait:
-                            </p>
+                            </h2>
                             <ul className="custom-list" aria-label="Tűzvédelmi szabályzat tartalma">
                                 <li><IoCheckmarkCircle className="check-icon" /><strong>Tűzmegelőzési intézkedések:</strong> Azokat az eljárásokat és szabályokat, amelyekkel csökkenthető a tűz keletkezésének kockázata, például a gyúlékony anyagok megfelelő tárolása és kezelése, valamint a villamos berendezések rendszeres karbantartása.</li>
                                 <li><IoCheckmarkCircle className="check-icon" /><strong>Tűzjelzés és riasztás:</strong> Azokat az eljárásokat, amelyek biztosítják a tűz gyors észlelését és a megfelelő személyek értesítését, beleértve a tűzjelző rendszerek használatát és a riasztási láncot.</li>

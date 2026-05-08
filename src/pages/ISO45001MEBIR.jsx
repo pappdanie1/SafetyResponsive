@@ -57,7 +57,7 @@ const ISO45001MEBIR = () => {
                                     növeli a szervezet hitelességét és versenyképességét, valamint
                                     csökkenti a munkahelyi balesetek és betegségek számát.
                                 </p>
-                                <h2>Támogatásaink a MEBIR alkalmazásával kapcsolatban:</h2>
+                                <h2 className="subsection-content-h2">Támogatásaink a MEBIR alkalmazásával kapcsolatban:</h2>
                                 <ul className="custom-list" aria-label="ISO 45001 MEBIR támogatási szolgáltatások">
                                     <li><IoCheckmarkCircle className="check-icon" />Rendszer kezelése, dokumentálása</li>
                                     <li><IoCheckmarkCircle className="check-icon" />Auditok bonyolítása</li>

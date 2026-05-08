@@ -44,6 +44,11 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.subsection-content-h2 {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
 
 .custom-list {
     list-style-type: none;

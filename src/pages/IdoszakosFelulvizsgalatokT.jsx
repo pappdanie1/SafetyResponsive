@@ -42,9 +42,9 @@ const IdoszakosFelulvizsgalatokT = () => {
                         </div>
                         <div className="text-container">
                             <h1>Időszakos felülvizsgálatok</h1>
-                            <p className="subsection-content">
+                            <h2 className="subsection-content-h2">
                                 Elvégezzük a 54/2014. (XII. 5.) BM rendelet szerinti tűzvédelmi időszakos felülvizsgálatokat és üzemeltetői ellenőrzéseket, amelyek a következők:
-                            </p>
+                            </h2>
                             <ul className="custom-list" aria-label="Tűzvédelmi időszakos felülvizsgálatok listája">
                                 <li><IoCheckmarkCircle className="check-icon" />Elektromos berendezések tűzvédelmi szabványossági felülvizsgálata</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Villámvédelmi felülvizsgálat</li>

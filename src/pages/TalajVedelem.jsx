@@ -45,9 +45,9 @@ const TalajVedelem = () => {
                             <p className="subsection-content">
                                 A talajvízfigyelő monitoring kút ellenőrzésének célja a talajvíz minőségének és szintjének rendszeres nyomon követése, hogy az esetleges szennyezéseket és változásokat időben felismerjük és kezeljük.
                             </p>
-                            <p className="subsection-content">
+                            <h2 className="subsection-content-h2">
                                 Az ellenőrzés során a következő lépésekre kerül sor:
-                            </p>
+                            </h2>
                             <ul className="custom-list" aria-label="Talajvízfigyelő monitoring kút ellenőrzési lépések">
                                 <li><IoCheckmarkCircle className="check-icon" />Kút állapotának vizsgálata</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Mintavétel</li>

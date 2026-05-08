@@ -45,7 +45,7 @@ const EPRBevallas = () => {
                             <p className="subsection-content">
                                 Az EPR (Extended Producer Responsibility, kiterjesztett gyártói felelősség) termékfelelőségi díj olyan környezetvédelmi díj, amelyet a gyártók és forgalmazók kötelesek fizetni a termékeik életciklusának végén keletkező hulladék kezelésére. Az EPR rendszer célja, hogy a gyártók viseljék a felelősséget a termékeik által okozott környezeti hatásokért, különösen a hulladékkezelésért és újrahasznosításért.
                             </p>
-                            <h2>Az EPR rendszer hatálya alá tartozó termékkategóriák:</h2>
+                            <h2 className="subsection-content-h2">Az EPR rendszer hatálya alá tartozó termékkategóriák:</h2>
                             <ul className="custom-list" aria-label="EPR hatálya alá tartozó termékek">
                                 <li><IoCheckmarkCircle className="check-icon" />Csomagolások</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Egyes egyszer használatos műanyag termékek</li>

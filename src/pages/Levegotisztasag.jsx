@@ -45,9 +45,9 @@ const Levegotisztasag = () => {
                             <p className="subsection-content">
                                 A levegőtisztasági védelem célja a légszennyezés csökkentése és a levegő minőségének javítása. Ez különösen fontos az emberi egészség védelme, az ökoszisztémák megőrzése és a klímaváltozás hatásainak mérséklése érdekében.
                             </p>
-                            <p className="subsection-content">
+                            <h2 className="subsection-content-h2">
                                 A levegőtisztasági védelemmel kapcsolatban a jogszabályi követelmények teljesítése érdekében a következő szolgáltatásokat biztosítjuk:
-                            </p>
+                            </h2>
                             <ul className="custom-list" aria-label="Levegőtisztasági szolgáltatások">
                                 <li><IoCheckmarkCircle className="check-icon" />Pontforrások engedélyeztetése</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Légszennyező pontforrás kibocsátások mérése</li>

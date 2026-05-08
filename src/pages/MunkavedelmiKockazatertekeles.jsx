@@ -54,9 +54,9 @@ const MunkavedelmiKockazatertekeles = () => {
                                     kockázatértékelés eredményei alapján tervezhetők meg a megfelelő
                                     kockázatkezelési stratégiák és intézkedések.
                                 </p>
-                                <p className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     A kockázatértékeléseink tartalmazzák a következőket:
-                                </p>
+                                </h2>
                                 <ul className="custom-list" aria-label="Munkavédelmi kockázatértékelés területei">
                                     <li>
                                         <IoCheckmarkCircle className="check-icon" />

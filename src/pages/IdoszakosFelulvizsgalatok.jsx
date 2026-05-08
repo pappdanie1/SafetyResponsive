@@ -52,10 +52,10 @@ const IdoszakosFelulvizsgalatok = () => {
                                     a gépek, berendezések, eszközök biztonságos állapotát és a
                                     jogszabályi megfelelőséget.
                                 </p>
-                                <p className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     Időszakos munkavédelmi felülvizsgálatok, amelyeket körültekintően
                                     nyilvántartunk és elvégzünk:
-                                </p>
+                                </h2>
                                 <ul className="custom-list" aria-label="Időszakos munkavédelmi felülvizsgálatok listája">
                                     <li><IoCheckmarkCircle className="check-icon" />Emelőgépek időszakos vizsgálatai (Fővizsgálat, Szerkezeti vizsgálat, Időszakos Biztonsági vizsgálat)</li>
                                     <li><IoCheckmarkCircle className="check-icon" />Létrák időszakos felülvizsgálata, dokumentálása</li>

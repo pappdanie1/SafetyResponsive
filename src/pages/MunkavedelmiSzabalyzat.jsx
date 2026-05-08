@@ -54,10 +54,10 @@ const MunkavedelmiSzabalyzat = () => {
                   munkavédelmi dokumentum Munkavédelmi Szabályzat készítése, amely
                   meghatározza a munkavédelemmel kapcsolatos belső szabályokat.
                 </p>
-                <p className="subsection-content">
+                <h2 className="subsection-content-h2">
                   Munkavédelmi Szabályzat rögzíti a munkáltatók és a
                   munkavállalók részére:
-                </p>
+                </h2>
                 <ul className="custom-list" aria-label="Munkavédelmi Szabályzat tartalma">
                   <li>
                     <IoCheckmarkCircle className="check-icon" />

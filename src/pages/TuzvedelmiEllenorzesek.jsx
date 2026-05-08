@@ -45,9 +45,9 @@ const TuzvedelmiEllenorzesek = () => {
                             <p className="subsection-content">
                                 A tűzvédelmi ellenőrzések célja annak biztosítása, hogy egy adott létesítmény megfeleljen a tűzvédelmi előírásoknak és szabályoknak, továbbá az esetleges tűzveszélyeket időben felismerjék és kezeljék.
                             </p>
-                            <p className="subsection-content">
+                            <h2 className="subsection-content-h2">
                                 Ezek az ellenőrzések a következő területeket érinthetik:
-                            </p>
+                            </h2>
                             <ul className="custom-list" aria-label="Tűzvédelmi ellenőrzések területei">
                                 <li><IoCheckmarkCircle className="check-icon" /><strong>Tűzvédelmi berendezések és eszközök ellenőrzése:</strong> A tűzoltó készülékek, tűzcsapok, tűzjelző rendszerek, vészvilágítás és más tűzvédelmi eszközök megfelelő működésének vizsgálata és karbantartása.</li>
                                 <li><IoCheckmarkCircle className="check-icon" /><strong>Menekülési útvonalak és kijáratok felülvizsgálata:</strong> A menekülési útvonalak és vészkijáratok akadálymentességének és jól láthatóságának biztosítása, valamint az ezekhez kapcsolódó jelzések ellenőrzése.</li>

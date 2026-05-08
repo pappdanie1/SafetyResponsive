@@ -54,9 +54,9 @@ const BiztonsagtechnikaiMeresek = () => {
                                     munkavédelmi előírások betartásának és a munkahelyi balesetek
                                     megelőzésének.
                                 </p>
-                                <p className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     A következő méréseket végezzük szakértő kollégákkal:
-                                </p>
+                                </h2>
                                 <ul className="custom-list" aria-label="Biztonságtechnikai mérések típusai">
                                     <li><IoCheckmarkCircle className="check-icon" />Munkahelyi zajmérés</li>
                                     <li><IoCheckmarkCircle className="check-icon" />Munkahelyi rezgésmérés</li>

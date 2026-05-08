@@ -45,7 +45,7 @@ const Katasztrofavedelem = () => {
                             <p className="subsection-content">
                                 A vonatkozó jogszabályok alapján (219/2011. (X. 20.) Korm. rendelet) az alsó és felső küszöbértékű veszélyes anyaggal foglalkozó üzem veszélyes ipari védelmi ügyintézőt köteles alkalmazni.
                             </p>
-                            <h2>Ezen tevékenység keretein belül elvégezzük a következőket:</h2>
+                            <h2 className="subsection-content-h2">Ezen tevékenység keretein belül elvégezzük a következőket:</h2>
                             <ul className="custom-list" aria-label="Katasztrófavédelmi feladatok">
                                 <li><IoCheckmarkCircle className="check-icon" />A veszélyes üzemeknél bekövetkezett súlyos balesetekkel kapcsolatos jelentési kötelezettséget</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Részt veszünk a hatósági ellenőrzéseken, helyszíni szemléken, gyakorlatokon</li>

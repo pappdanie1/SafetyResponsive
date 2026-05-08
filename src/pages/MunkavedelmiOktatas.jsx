@@ -50,9 +50,9 @@ const MunkavedelmiOktatas = () => {
                                     az egészséget nem veszélyeztető, biztonságos munkavégzés
                                     feltételeit.
                                 </p>
-                                <p className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     Munkavédelmi oktatás, amelyeket hatékonyan elvégzünk:
-                                </p>
+                                </h2>
                                 <ul className="custom-list" aria-label="Munkavédelmi oktatások típusai">
                                     <li>
                                         <IoCheckmarkCircle className="check-icon" />

@@ -45,9 +45,9 @@ const TuzvedelmiOktatas = () => {
                             <p className="subsection-content">
                                 A tűzvédelmi oktatás célja, hogy felkészítse a munkavállalókat a tűzmegelőzés szabályaira, a tűzveszélyes helyzetek kezelésére és tűz esetén a helyes reakciókra. Az oktatás során részletesen bemutatjuk a tűzvédelmi előírásokat, a tűzvédelmi rendszereket és a tűzoltó eszközök helyes használatát. Az oktatásnak fontos része a gyakorlatok is, amelyek során a résztvevők megismerkednek a tűzoltó készülékekkel és az evakuációs eljárásokkal. Minden dolgozónak tisztában kell lenni a tűzvédelmi ismeretekkel, hogy megelőzhetőek legyenek a tűzesetek és tűz keletkezése esetén hatékony beavatkozás történjen.
                             </p>
-                            <p className="subsection-content">
+                            <h2 className="subsection-content-h2">
                                 Tűzvédelmi oktatások képzett kollégáink által:
-                            </p>
+                            </h2>
                             <ul className="custom-list" aria-label="Tűzvédelmi oktatások típusai">
                                 <li><IoCheckmarkCircle className="check-icon" />Előzetes tűzvédelmi oktatás</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Időszakos tűzvédelmi oktatás</li>

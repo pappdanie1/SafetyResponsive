@@ -45,7 +45,7 @@ const Bevallas = () => {
                             <p className="subsection-content">
                                 A környezetvédelmi termékdíj egy olyan pénzügyi teher, amelyet bizonyos termékek gyártói, forgalmazói vagy importőrei kötelesek megfizetni annak érdekében, hogy hozzájáruljanak a környezet védelméhez. Magyarországon ezt a díjat a környezetvédelmi termékdíjról szóló törvény (2011. évi LXXXV. törvény) szabályozza. A termékdíjat elsősorban azokra a termékekre vetik ki, amelyek hulladékká válásukkor jelentős környezeti terhelést okoznak, és amelyeket újra lehet hasznosítani vagy környezetbarát módon kezelni.
                             </p>
-                            <h2>Főbb termékcsoportok, amelyekre kivetik a termékdíjat:</h2>
+                            <h2 className="subsection-content-h2">Főbb termékcsoportok, amelyekre kivetik a termékdíjat:</h2>
                             <ul className="custom-list" aria-label="Termékdíj-köteles termékcsoportok">
                                 <li><IoCheckmarkCircle className="check-icon" />Az akkumulátor</li>
                                 <li><IoCheckmarkCircle className="check-icon" />A csomagolószer</li>

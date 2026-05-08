@@ -57,9 +57,9 @@ const Balesetkivizsgalas = () => {
                                     Természetesen a munkaidő kieséssel járó balesetekkel
                                     kapcsolatos hatósági ügyintézést is végezzük kompletten.
                                 </p>
-                                <p className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     Balesetek, amelyeket kivizsgálunk:
-                                </p>
+                                </h2>
                                 <ul className="custom-list" aria-label="Kivizsgált balesetek típusai">
                                     <li><IoCheckmarkCircle className="check-icon" />Súlyos munkabaleset</li>
                                     <li><IoCheckmarkCircle className="check-icon" />3 munkanapot meghaladó munkaidő kieséssel járó baleset</li>

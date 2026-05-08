@@ -45,7 +45,7 @@ const Hulladekkezeles = () => {
                             <p className="subsection-content">
                                 A hulladékkezelés magában foglalja a hulladék keletkezésének minimalizálását, szétválasztását, gyűjtését, szállítását, újrahasznosítását és ártalmatlanítását. A hatékony hulladékkezelés csökkenti a környezeti terhelést és elősegíti az erőforrások fenntartható használatát. A vállalatok számára fontos, hogy betartsák a jogszabályi előírásokat és olyan technológiákat alkalmazzanak, amelyek minimalizálják a hulladék mennyiségét és maximalizálják az újrahasznosítást.
                             </p>
-                            <h2>Hulladékkezeléssel kapcsolatos szolgáltatásaink:</h2>
+                            <h2 className="subsection-content-h2">Hulladékkezeléssel kapcsolatos szolgáltatásaink:</h2>
                             <ul className="custom-list" aria-label="Hulladékkezelési szolgáltatások">
                                 <li><IoCheckmarkCircle className="check-icon" />Javaslatok készítése a hulladékkezelés optimalizálására</li>
                                 <li><IoCheckmarkCircle className="check-icon" />Az éves hulladékos adatszolgáltatás elkészítése, hatósághoz történő benyújtása</li>

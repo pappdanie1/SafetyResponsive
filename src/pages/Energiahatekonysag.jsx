@@ -49,7 +49,7 @@ const Energiahatekonysag = () => {
                                     alacsony fogyasztású gépek, LED világítás vagy hőszigetelés alkalmazásával. Az energiahatékonyság
                                     nemcsak az energiaköltségeket csökkenti, hanem hozzájárul a fenntarthatóbb jövőhöz is.
                                 </p>
-                                <h2 className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     Energetikai Szakreferensi tevékenységük során a következőket biztosítjuk:
                                 </h2>
                                 <ul className="custom-list" aria-label="2015. évi LVII. törvény szerinti feladatok">

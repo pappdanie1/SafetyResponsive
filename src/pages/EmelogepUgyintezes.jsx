@@ -46,9 +46,9 @@ const EmelogepUgyintezes = () => {
                                 <p className="subsection-content">
                                     Az emelőgép ügyintézés magában foglalja az emelőgépek telepítésével, üzemeltetésével és karbantartásával kapcsolatos adminisztratív és jogi feladatok ellátását. Ez a folyamat tartalmazza az emelőgépek üzembehelyezését, rendszeres időszakos vizsgálatokat és az ezekhez kapcsolódó dokumentációk vezetését. Az ügyintézés során biztosítani kell, hogy az emelőgépek megfeleljenek a vonatkozó biztonsági és műszaki előírásoknak, valamint hogy a kezelők megfelelő képzésben részesüljenek és rendelkezzenek a szükséges képesítésekkel. A szakszerű ügyintézés hozzájárul a biztonságos üzemeltetéshez és a balesetek megelőzéséhez.
                                 </p>
-                                <p className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     Az emelőgép ügyintézés során általunk elvégzett feladatok:
-                                </p>
+                                </h2>
                                 <ul className="custom-list" aria-label="Emelőgép ügyintézési feladatok">
                                     <li>
                                         <IoCheckmarkCircle className="check-icon" />

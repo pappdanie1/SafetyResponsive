@@ -47,9 +47,9 @@ const MunkavedelmiTervek = () => {
                                 <p className="subsection-content">
                                     A munkavédelmi tervek olyan dokumentumok, amelyek részletesen leírják a munkahelyi egészségvédelem és biztonság biztosítására irányuló intézkedéseket és eljárásokat. Ezek a tervek tartalmazzák a potenciális veszélyek azonosítását, a kockázatok értékelését és a megelőző intézkedések meghatározását. A munkavédelmi terv magában foglalja a munkavállalók képzését, a szükséges védőfelszerelések használatát, a vészhelyzeti eljárásokat és a biztonsági ellenőrzések rendszerét. A terv célja, hogy biztosítsa a munkavállalók egészségét és biztonságát, csökkentse a balesetek kockázatát, valamint megfeleljen a jogi és szabályozási követelményeknek.
                                 </p>
-                                <p className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     A következő munkavédelmi tervek készítését vállaljuk:
-                                </p>
+                                </h2>
                                 <ul className="custom-list" aria-label="Munkavédelmi tervek típusai">
                                     <li><IoCheckmarkCircle className="check-icon" />Mentési terv elkészítése</li>
                                     <li><IoCheckmarkCircle className="check-icon" />Egységes és átfogó megelőzési stratégia kialakítása</li>

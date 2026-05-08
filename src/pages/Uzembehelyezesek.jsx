@@ -55,9 +55,9 @@ const Uzembehelyezesek = () => {
                                     meghatározott gyártói megfelelőségi nyilatkozattal, illetve a
                                     megfelelőséget tanúsító egyéb dokumentummal.
                                 </p>
-                                <p className="subsection-content">
+                                <h2 className="subsection-content-h2">
                                     Az üzembehelyezési eljárás során a következőket biztosítjuk:
-                                </p>
+                                </h2>
                                 <ul className="custom-list" aria-label="Üzembehelyezési eljárás lépései">
                                     <li>
                                         <IoCheckmarkCircle className="check-icon" />
