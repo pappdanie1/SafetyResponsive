@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import '../css/Header.css'
 import logo from '/src/assets/logo.png'
 
-
 const Header = () => {
     const navRef = useRef();
 
@@ -18,18 +17,18 @@ const Header = () => {
                 <img className="header-logo" src={logo} alt="" />
             </Link>
             <nav ref={navRef}>
-                <a href="/">Kezdőlap</a>
-                <a href="/munkavedelem">Munkavédelem</a>
-                <a href="/tuzvedelem">Tűzvédelem</a>
-                <a href="/kornyezetvedelem">Környezetvédelem</a>
-                <a href="/energiahatekonysag">Energiahatékonyság</a>
-                <a href="/referenciak">Referenciák</a>
-                <a href="/kapcsolat">Kapcsolat</a>
-                <button className="nav-btn nav-close-btn" onClick={showNavbar} >
+                <Link to="/">Kezdőlap</Link>
+                <Link to="/munkavedelem">Munkavédelem</Link>
+                <Link to="/tuzvedelem">Tűzvédelem</Link>
+                <Link to="/kornyezetvedelem">Környezetvédelem</Link>
+                <Link to="/energiahatekonysag">Energiahatékonyság</Link>
+                <Link to="/referenciak">Referenciák</Link>
+                <Link to="/kapcsolat">Kapcsolat</Link>
+                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes />
                 </button>
             </nav>
-            <button className="nav-btn" onClick={showNavbar} >
+            <button className="nav-btn" onClick={showNavbar}>
                 <FaBars />
             </button>
         </header>

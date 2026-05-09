@@ -1,10 +1,8 @@
 User-agent: *
 Allow: /
 
-# Block thank-you page from indexing (no SEO value)
 Disallow: /koszonjuk
-
-# Block 404 fallback
 Disallow: /404
+Disallow: /adatvedelmi-tajekoztato
 
 Sitemap: https://ehs-szolgaltatas.com/sitemap.xml

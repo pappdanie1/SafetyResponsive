@@ -8,6 +8,7 @@ const PrivacyPolicy = () => {
       <Helmet>
         <title>Adatvédelmi Tájékoztató | EHS Szolgáltatás</title>
         <meta name="description" content="Az EHS Szolgáltatás adatvédelmi tájékoztatója: sütik, kapcsolatfelvétel során kezelt adatok és jogorvoslati lehetőségek." />
+        <meta name="robots" content="noindex, follow" />
       </Helmet>
       <div className="privacy-container">
         <div className="privacy-content">

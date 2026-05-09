@@ -2,6 +2,7 @@ import React from "react";
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 import '../css/Footer.css'
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
                 Biztonság a Cége Sikere Érdekében!
             </div>
             <div className="footer-contact">
-                <h3 className="footer-h3" >Kapcsolat</h3>
+                <h3 className="footer-h3">Kapcsolat</h3>
                 <div className="footer-contact-info">
                     <div className="footer-contact-item">
                         <MdEmail className="footer-icon" />
@@ -23,37 +24,21 @@ const Footer = () => {
                     </div>
                     <div className="footer-contact-item">
                         <FaLinkedin className="footer-icon" />
-                        <a className="footer-contact" href="https://www.linkedin.com/in/zsolt-papp-8270582b4/">LinkedIn</a>
+                        <a className="footer-contact" href="https://www.linkedin.com/in/zsolt-papp-8270582b4/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </div>
                 </div>
             </div>
             <div className="footer-links">
-                <h3 className="footer-h3" >Linkek</h3>
+                <h3 className="footer-h3">Linkek</h3>
                 <ul>
-                    <li>
-                        <a className="footer-contact" href="/">Kezdőlap</a>
-                    </li>
-                    <li>
-                        <a className="footer-contact" href="/kapcsolat">Kapcsolat</a>
-                    </li>
-                    <li>
-                        <a className="footer-contact" href="/munkavedelem">Munkavédelem</a>
-                    </li>
-                    <li>
-                        <a className="footer-contact" href="/tuzvedelem">Tűzvédelem</a>
-                    </li>
-                    <li>
-                        <a className="footer-contact" href="/kornyezetvedelem">Környezetvédelem</a>
-                    </li>
-                    <li>
-                        <a className="footer-contact" href="/energiahatekonysag">Energiahatékonyság</a>
-                    </li>
-                    <li>
-                        <a className="footer-contact" href="/referenciak">Referenciák</a>
-                    </li>
-                    <li>
-                        <a className="footer-contact" href="/adatvedelmi-tajekoztato">Adatvédelmi Tájékoztató</a>
-                    </li>
+                    <li><Link className="footer-contact" to="/">Kezdőlap</Link></li>
+                    <li><Link className="footer-contact" to="/kapcsolat">Kapcsolat</Link></li>
+                    <li><Link className="footer-contact" to="/munkavedelem">Munkavédelem</Link></li>
+                    <li><Link className="footer-contact" to="/tuzvedelem">Tűzvédelem</Link></li>
+                    <li><Link className="footer-contact" to="/kornyezetvedelem">Környezetvédelem</Link></li>
+                    <li><Link className="footer-contact" to="/energiahatekonysag">Energiahatékonyság</Link></li>
+                    <li><Link className="footer-contact" to="/referenciak">Referenciák</Link></li>
+                    <li><Link className="footer-contact" to="/adatvedelmi-tajekoztato">Adatvédelmi Tájékoztató</Link></li>
                 </ul>
             </div>
         </footer>

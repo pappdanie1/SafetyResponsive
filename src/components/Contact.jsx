@@ -3,6 +3,7 @@ import '../css/Contact.css'
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 import pappzsolt from '/src/assets/pappzsolt.jpg'
 import ContactForm from "./ContactForm";
 
@@ -15,7 +16,7 @@ const Contact = () => {
           <div className="contact-text-container">
             <div className="main-name">
               <p>
-                Amennyiben Munkavédelemmel, Tűzvédelemmel, Környezetvédelemmel vagy Energiahatékonysággal
+                Amennyiben <Link to="/munkavedelem">Munkavédelemmel</Link>, <Link to="/tuzvedelem">Tűzvédelemmel</Link>, <Link to="/kornyezetvedelem">Környezetvédelemmel</Link> vagy <Link to="/energiahatekonysag">Energiahatékonysággal </Link>
                 kapcsolatos kérdésük, megoldandó feladatuk merülne fel állunk
                 szíves rendelkezésükre a következő elérhetőségeinken vagy
                 személyes megbeszélés alkalmával felajánljuk támogatásunkat.<br></br> Várjuk szíves érdeklődésüket.
@@ -41,7 +42,7 @@ const Contact = () => {
           </div>
           <div className="main-email">
             <FaLinkedin className="main-icon" />
-            <a href="https://www.linkedin.com/in/zsolt-papp-8270582b4/">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/zsolt-papp-8270582b4/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
       </div>

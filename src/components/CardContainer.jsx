@@ -1,85 +1,70 @@
 import React from "react";
-import { FaHelmetSafety, FaFireExtinguisher  } from "react-icons/fa6";
-import { MdNaturePeople } from "react-icons/md";
+import { FaHelmetSafety, FaFireExtinguisher } from "react-icons/fa6";
+import { MdNaturePeople, MdEnergySavingsLeaf } from "react-icons/md";
 import { IoCheckmarkCircle } from "react-icons/io5";
-import { useNavigate } from "react-router-dom";
-import { MdEnergySavingsLeaf } from "react-icons/md";
+import { Link, useNavigate } from "react-router-dom";
 import '../css/CardContainer.css'
-
-
 
 const CardContainer = () => {
     const navigate = useNavigate();
 
-    const handleWork = () => {
-        navigate("/munkavedelem")
-    }
-
-    const handleFire = () => {
-        navigate("/tuzvedelem")
-    }
-
-    const handleNature = () => {
-        navigate("/kornyezetvedelem")
-    }
-
-    const handleEnergy = () => {
-        navigate("/energiahatekonysag")
-    }
-
     return (
-        <div className="card-container" >
-            <div className="card" onClick={handleWork}>
+        <div className="card-container">
+
+            <div className="card" onClick={() => navigate("/munkavedelem")}>
                 <FaHelmetSafety className="icon" />
-                <h2>Munkavédelem</h2>
+                <h1 className="title-h1">Munkavédelem</h1>
                 <ul>
-                    <li><IoCheckmarkCircle className="check-icon" />Munkabiztonsági Szakértői tevékenység</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Munkavédelmi Szabályzat</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Munkavédelmi ellenőrzések</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Időszakos felülvizsgálatok</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Balesetkivizsgálás</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Üzembehelyezések</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Munkavédelmi oktatás</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Munkavédelmi kockázatértékelés</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Biztonságtechnikai mérések</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Veszélyes munkák</li>
-                    <li><IoCheckmarkCircle className="check-icon" />ISO45001 MEBIR</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Emelőgép ügyintézés</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Munkavédelmi tervek</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Építési munkahelyek munkavédelmi feladatai</li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/munkabiztonsagi-szakertoi-tevekenyseg" onClick={e => e.stopPropagation()}>Munkabiztonsági Szakértői tevékenység</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/munkavedelmi-szabalyzat" onClick={e => e.stopPropagation()}>Munkavédelmi Szabályzat</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/munkavedelmi-ellenorzesek" onClick={e => e.stopPropagation()}>Munkavédelmi ellenőrzések</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/idoszakos-felulvizsgalatok" onClick={e => e.stopPropagation()}>Időszakos felülvizsgálatok</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/balesetkivizsgalas" onClick={e => e.stopPropagation()}>Balesetkivizsgálás</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/uzembehelyezesek" onClick={e => e.stopPropagation()}>Üzembehelyezések</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/munkavedelmi-oktatas" onClick={e => e.stopPropagation()}>Munkavédelmi oktatás</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/munkavedelmi-kockazatertekeles" onClick={e => e.stopPropagation()}>Munkavédelmi kockázatértékelés</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/biztonsagtechnikai-meresek" onClick={e => e.stopPropagation()}>Biztonságtechnikai mérések</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/veszelyes-munkak" onClick={e => e.stopPropagation()}>Veszélyes munkák</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/ISO-45001-MEBIR" onClick={e => e.stopPropagation()}>ISO45001 MEBIR</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/emelogep-ugyintezes" onClick={e => e.stopPropagation()}>Emelőgép ügyintézés</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/munkavedelmi-tervek" onClick={e => e.stopPropagation()}>Munkavédelmi tervek</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/epitesi-munkahelyek-munkavedelmi-feladatai" onClick={e => e.stopPropagation()}>Építési munkahelyek munkavédelmi feladatai</Link></li>
                 </ul>
             </div>
-            <div className="card" onClick={handleFire}>
+
+            <div className="card" onClick={() => navigate("/tuzvedelem")}>
                 <FaFireExtinguisher className="icon" />
-                <h2>Tűzvédelem</h2>
+                <h1 className="title-h1">Tűzvédelem</h1>
                 <ul className="align-left">
-                    <li><IoCheckmarkCircle className="check-icon" />Tűzvédelmi szabályzat</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Tűzvédelmi ellenőrzések</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Időszakos felülvizsgálatok</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Tűzvédelmi oktatás</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Katasztrófavédelem</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Tűzveszélyes tevékenység</li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/tuzvedelmi-szabalyzat" onClick={e => e.stopPropagation()}>Tűzvédelmi szabályzat</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/tuzvedelmi-ellenorzesek" onClick={e => e.stopPropagation()}>Tűzvédelmi ellenőrzések</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/idoszakos-felulvizsgalatok-tuzvedelem" onClick={e => e.stopPropagation()}>Időszakos felülvizsgálatok</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/tuzvedelmi-oktatas" onClick={e => e.stopPropagation()}>Tűzvédelmi oktatás</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/katasztrofavedelem" onClick={e => e.stopPropagation()}>Katasztrófavédelem</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/tuzveszelyes-tevelenyseg" onClick={e => e.stopPropagation()}>Tűzveszélyes tevékenység</Link></li>
                 </ul>
             </div>
-            <div className="card" onClick={handleNature}>
+
+            <div className="card" onClick={() => navigate("/kornyezetvedelem")}>
                 <MdNaturePeople className="icon" />
-                <h2>Környezetvédelem</h2>
+                <h1 className="title-h1">Környezetvédelem</h1>
                 <ul>
-                    <li><IoCheckmarkCircle className="check-icon" />ISO14001 Környezetközpontú Irányítási Rendszerek</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Környezetvédelmi ellenőrzések</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Talaj védelem</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Veszélyes anyagok nyilvántartása</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Levegőtisztaság védelem</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Környezetvédelmi oktatás</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Hulladékkezelés</li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/ISO14001" onClick={e => e.stopPropagation()}>ISO14001 Környezetközpontú Irányítási Rendszerek</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/kornyezetvedelmi-ellenorzesek" onClick={e => e.stopPropagation()}>Környezetvédelmi ellenőrzések</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/talaj-vedelem" onClick={e => e.stopPropagation()}>Talaj védelem</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/veszelyes-anyagok-nyilvantartasa" onClick={e => e.stopPropagation()}>Veszélyes anyagok nyilvántartása</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/levegotisztasag-vedelem" onClick={e => e.stopPropagation()}>Levegőtisztaság védelem</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/kornyezetvedelmi-oktatas" onClick={e => e.stopPropagation()}>Környezetvédelmi oktatás</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/hulladekkezeles" onClick={e => e.stopPropagation()}>Hulladékkezelés</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/kornyezetvedelmi-termekdij-bevallas" onClick={e => e.stopPropagation()}>Környezetvédelmi termékdíj bevallás</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" />Környezeti zaj</li>
-                    <li><IoCheckmarkCircle className="check-icon" />Környezetvédelmi termékdíj bevallás</li>
-                    <li><IoCheckmarkCircle className="check-icon" />EPR gyártói termékfelelőségi díj bevallás</li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/epr-gyartoi-termekfelelossegi-dij-bevallas" onClick={e => e.stopPropagation()}>EPR gyártói termékfelelőségi díj bevallás</Link></li>
                 </ul>
             </div>
-            <div className="card" onClick={handleEnergy}>
+
+            <div className="card" onClick={() => navigate("/energiahatekonysag")}>
                 <MdEnergySavingsLeaf className="icon" />
-                <h2>Energiahatékonyság</h2>
+                <h1 className="title-h1">Energiahatékonyság</h1>
                 <ul>
                     <li><IoCheckmarkCircle className="check-icon" />Energetikai szakreferensi szolgáltatás</li>
                     <li><IoCheckmarkCircle className="check-icon" />Energiafelhasználás követése, jelentések készítése</li>
@@ -93,6 +78,7 @@ const CardContainer = () => {
                     <li><IoCheckmarkCircle className="check-icon" />Mérőeszközökre vonatkozó javaslatok</li>
                 </ul>
             </div>
+
         </div>
     )
 }

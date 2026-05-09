@@ -38,7 +38,7 @@ import KornyezetvedelmiOktatas from './pages/KornyezetvedelmiOktatas'
 import Hulladekkezeles from './pages/Hulladekkezeles'
 import Bevallas from './pages/Bevallas'
 import EPRBevallas from './pages/EPRBevallas'
-import ScrollToTop from  './components/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 import Energiahatekonysag from './pages/Energiahatekonysag'
 import MunkabiztonsagiSzakertoiTevekenyseg from './pages/MunkabiztonsagiSzakertoiTevekenyseg'
 import ThankYou from './pages/ThankYou'
@@ -112,7 +112,6 @@ function App() {
                         <Route path='/tuzvedelem' element={<FireSafety />} />
                         <Route path='/kornyezetvedelem' element={<EnvironmentalProtection />} />
                         <Route path='/referenciak' element={<ReferencesPage />} />
-                        <Route path="*" element={<NotFound />} />
                         <Route path='/munkavedelmi-szabalyzat' element={<MunkavedelmiSzabalyzat />} />
                         <Route path='/munkavedelmi-ellenorzesek' element={<MunkavedelmiEllenorzesek />} />
                         <Route path='/idoszakos-felulvizsgalatok' element={<IdoszakosFelulvizsgalatok />} />
@@ -145,6 +144,7 @@ function App() {
                         <Route path='/munkabiztonsagi-szakertoi-tevekenyseg' element={<MunkabiztonsagiSzakertoiTevekenyseg />} />
                         <Route path='/koszonjuk' element={<ThankYou />} />
                         <Route path="/adatvedelmi-tajekoztato" element={<PrivacyPolicy />} />
+                        <Route path="*" element={<NotFound />} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>

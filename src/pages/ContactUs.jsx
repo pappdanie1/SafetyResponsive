@@ -6,6 +6,7 @@ import '../css/ContactUs.css';
 import selfieImage from '../assets/pappzsolt.jpg';
 import ContactForm from "../components/ContactForm";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import img1 from '/src/assets/img1.jpg';
 
 const ContactUs = () => {
@@ -38,7 +39,7 @@ const ContactUs = () => {
                     <div className="contact-content-wrapper">
                         <div className="contact-text-content">
                             <div className="contact-us-item">
-                                <p>Amennyiben Munkavédelemmel, Tűzvédelemmel, Környezetvédelemmel vagy Energiahatékonysággal kapcsolatos kérdésük, megoldandó feladatuk merülne fel állunk szíves rendelkezésükre a következő elérhetőségeinken vagy személyes megbeszélés alkalmával felajánljuk támogatásunkat.</p>
+                                <p>Amennyiben <Link to="/munkavedelem">Munkavédelemmel</Link>, <Link to="/tuzvedelem">Tűzvédelemmel</Link>, <Link to="/kornyezetvedelem">Környezetvédelemmel</Link> vagy <Link to="/energiahatekonysag">Energiahatékonysággal</Link> kapcsolatos kérdésük, megoldandó feladatuk merülne fel állunk szíves rendelkezésükre a következő elérhetőségeinken vagy személyes megbeszélés alkalmával felajánljuk támogatásunkat.</p>
                             </div>
                             <div className="contact-us-item">
                                 <p>Várjuk szíves érdeklődésüket.</p>
