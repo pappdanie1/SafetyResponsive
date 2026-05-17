@@ -121,7 +121,7 @@ function App() {
                         <Route path='/munkavedelmi-kockazatertekeles' element={<MunkavedelmiKockazatertekeles />} />
                         <Route path='/biztonsagtechnikai-meresek' element={<BiztonsagtechnikaiMeresek />} />
                         <Route path='/veszelyes-munkak' element={<VeszelyesMunkak />} />
-                        <Route path='/ISO-45001-MEBIR' element={<ISO45001MEBIR />} />
+                        <Route path='/iso-45001-mebir' element={<ISO45001MEBIR />} />
                         <Route path='/emelogep-ugyintezes' element={<EmelogepUgyintezes />} />
                         <Route path='/munkavedelmi-tervek' element={<MunkavedelmiTervek />} />
                         <Route path='/epitesi-munkahelyek-munkavedelmi-feladatai' element={<EpitesiMunkahelyek />} />
@@ -130,8 +130,8 @@ function App() {
                         <Route path='/idoszakos-felulvizsgalatok-tuzvedelem' element={<IdoszakosFelulvizsgalatokT />} />
                         <Route path='/tuzvedelmi-oktatas' element={<TuzvedelmiOktatas />} />
                         <Route path='/katasztrofavedelem' element={<Katasztrofavedelem />} />
-                        <Route path='/tuzveszelyes-tevelenyseg' element={<TuzveszelyesTevekenyseg />} />
-                        <Route path='/ISO14001' element={<ISO14001 />} />
+                        <Route path='/tuzveszelyes-tevekenyseg' element={<TuzveszelyesTevekenyseg />} />
+                        <Route path='/iso14001' element={<ISO14001 />} />
                         <Route path='/kornyezetvedelmi-ellenorzesek' element={<KornyezetvedelmiEll />} />
                         <Route path='/talaj-vedelem' element={<TalajVedelem />} />
                         <Route path='/veszelyes-anyagok-nyilvantartasa' element={<VeszelyesAnyagok />} />

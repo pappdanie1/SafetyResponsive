@@ -25,7 +25,7 @@ const CardContainer = () => {
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/munkavedelmi-kockazatertekeles" onClick={e => e.stopPropagation()}>Munkavédelmi kockázatértékelés</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/biztonsagtechnikai-meresek" onClick={e => e.stopPropagation()}>Biztonságtechnikai mérések</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/veszelyes-munkak" onClick={e => e.stopPropagation()}>Veszélyes munkák</Link></li>
-                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/ISO-45001-MEBIR" onClick={e => e.stopPropagation()}>ISO45001 MEBIR</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/iso-45001-mebir" onClick={e => e.stopPropagation()}>ISO45001 MEBIR</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/emelogep-ugyintezes" onClick={e => e.stopPropagation()}>Emelőgép ügyintézés</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/munkavedelmi-tervek" onClick={e => e.stopPropagation()}>Munkavédelmi tervek</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/epitesi-munkahelyek-munkavedelmi-feladatai" onClick={e => e.stopPropagation()}>Építési munkahelyek munkavédelmi feladatai</Link></li>
@@ -41,7 +41,7 @@ const CardContainer = () => {
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/idoszakos-felulvizsgalatok-tuzvedelem" onClick={e => e.stopPropagation()}>Időszakos felülvizsgálatok</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/tuzvedelmi-oktatas" onClick={e => e.stopPropagation()}>Tűzvédelmi oktatás</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/katasztrofavedelem" onClick={e => e.stopPropagation()}>Katasztrófavédelem</Link></li>
-                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/tuzveszelyes-tevelenyseg" onClick={e => e.stopPropagation()}>Tűzveszélyes tevékenység</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/tuzveszelyes-tevekenyseg" onClick={e => e.stopPropagation()}>Tűzveszélyes tevékenység</Link></li>
                 </ul>
             </div>
 
@@ -49,7 +49,7 @@ const CardContainer = () => {
                 <MdNaturePeople className="icon" />
                 <h1 className="title-h1">Környezetvédelem</h1>
                 <ul>
-                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/ISO14001" onClick={e => e.stopPropagation()}>ISO14001 Környezetközpontú Irányítási Rendszerek</Link></li>
+                    <li><IoCheckmarkCircle className="check-icon" /><Link to="/iso14001" onClick={e => e.stopPropagation()}>ISO14001 Környezetközpontú Irányítási Rendszerek</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/kornyezetvedelmi-ellenorzesek" onClick={e => e.stopPropagation()}>Környezetvédelmi ellenőrzések</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/talaj-vedelem" onClick={e => e.stopPropagation()}>Talaj védelem</Link></li>
                     <li><IoCheckmarkCircle className="check-icon" /><Link to="/veszelyes-anyagok-nyilvantartasa" onClick={e => e.stopPropagation()}>Veszélyes anyagok nyilvántartása</Link></li>

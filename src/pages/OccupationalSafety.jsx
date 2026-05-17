@@ -94,7 +94,7 @@ const OccupationalSafety = () => {
                         <Link to="/veszelyes-munkak">
                             <SafetyCard head={"Veszélyes munkák"} img={veszelyesm} />
                         </Link>
-                        <Link to="/ISO-45001-MEBIR">
+                        <Link to="/iso-45001-mebir">
                             <SafetyCard head={"ISO 45001 MEBIR"} img={mebir} />
                         </Link>
                         <Link to="/emelogep-ugyintezes">

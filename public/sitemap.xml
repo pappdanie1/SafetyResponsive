@@ -68,7 +68,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ehs-szolgaltatas.com/ISO-45001-MEBIR</loc>
+    <loc>https://ehs-szolgaltatas.com/iso-45001-mebir</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -124,7 +124,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ehs-szolgaltatas.com/tuzveszelyes-tevelenyseg</loc>
+    <loc>https://ehs-szolgaltatas.com/tuzveszelyes-tevekenyseg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -135,7 +135,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://ehs-szolgaltatas.com/ISO14001</loc>
+    <loc>https://ehs-szolgaltatas.com/iso14001</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

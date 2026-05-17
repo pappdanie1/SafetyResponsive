@@ -54,7 +54,7 @@ const EnvironmentalProtection = () => {
             <main className="cards-cc">
                 <h1 className="cards-title">Környezetvédelem</h1>
                     <div className="cards-container">
-                        <Link to="/ISO14001">
+                        <Link to="/iso14001">
                             <SafetyCard head={"ISO14001 Környezetközpontú Irányítási Rendszerek"} img={numbrs} />
                         </Link>
                         <Link to="/kornyezetvedelmi-ellenorzesek">

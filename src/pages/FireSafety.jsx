@@ -62,7 +62,7 @@ const FireSafety = () => {
                         <Link to="/katasztrofavedelem">
                             <SafetyCard head={"Katasztrófavédelem"} img={kataszt} />
                         </Link>
-                        <Link to="/tuzveszelyes-tevelenyseg">
+                        <Link to="/tuzveszelyes-tevekenyseg">
                             <SafetyCard head={"Tűzveszélyes tevékenység"} img={tuzveszelyes} />
                         </Link>
                     </div>
